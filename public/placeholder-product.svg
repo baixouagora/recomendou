@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#f4f4f5"/>
+  <g stroke="#a1a1aa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="200" cy="200" r="60" fill="#fafafa"/>
+    <path d="M170 200h60M200 170v60"/>
+  </g>
+  <text x="200" y="320" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#71717a">imagem do produto</text>
+</svg>
