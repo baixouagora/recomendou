@@ -19,8 +19,11 @@ function buildJsonLd(list: ProductList, baseUrl: string) {
         "@type": "Product",
         name: p.name,
         description: p.tagline,
-        image: `${baseUrl}${p.imageUrl}`,
-        url: buildAmazonUrl({ asin: p.amazonAsin, url: p.amazonUrl }) ?? undefined,
+        image: p.imageUrl.startsWith("http") ? p.imageUrl : `${baseUrl}${p.imageUrl}`,
+        url:
+          buildAmazonUrl({ asin: p.amazonAsin, url: p.amazonUrl }) ??
+          p.mercadoLivreUrl ??
+          undefined,
       },
     })),
   };
