@@ -1,6 +1,9 @@
 import type { ProductList } from "@/lib/types";
 
-// TODO: imagens dos produtos (imageUrl) atualmente usam placeholder.svg.
+// Imagens: 7 produtos DJI usam URLs diretas da Amazon (m.media-amazon.com).
+// 3 produtos (Autel EVO Lite+, SJRC F11 4K Pro, Potensic Atom SE) ainda usam placeholder
+// porque seus ASINs não estão indexados no padrão Amazon "P/{ASIN}._SX466_.jpg" (vendedores marketplace).
+// Pra eles, opções: hot-link da página oficial do fabricante OU hospedar imagem própria.
 // TODO: substituir mercadoLivreUrl pelos links de afiliado gerados em mercadolivre.com.br/afiliados.
 // Os links Amazon já injetam a tag recomendou01-20 automaticamente via buildAmazonUrl.
 
@@ -51,7 +54,7 @@ export const dronesMaio2026: ProductList = {
       tagline: "O melhor drone geral pra maioria das pessoas",
       description:
         "O Mini 4 Pro é o drone mais bem equilibrado da DJI. Pesa menos de 249g (zero burocracia ANAC para uso recreativo), filma em 4K HDR a 100fps com gimbal mecânico de 3 eixos, e tem o que faltava na geração anterior: sensores de obstáculo omnidirecionais — ele detecta obstáculos em todas as direções, não só na frente. Autonomia real de cerca de 30 minutos por bateria (34 prometidos pela DJI), transmissão de até 20km via OcuSync 4 que funciona muito bem em áreas abertas. Para quem cria conteúdo casual, viaja, ou simplesmente quer um drone confiável para a maior parte das situações sem precisar pensar em regulação, é a escolha mais segura. Não é o que tem o sensor maior nem o melhor para vídeo profissional cinematográfico — para isso veja o Air 3S ou o Mavic 3 Pro — mas para 90% dos casos de uso, é difícil errar.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/P/B0CJYHBYVK._SX466_.jpg",
       amazonAsin: "B0CJYHBYVK",
       mercadoLivreUrl: "https://lista.mercadolivre.com.br/dji-mini-4-pro",
       pros: [
@@ -71,7 +74,7 @@ export const dronesMaio2026: ProductList = {
       tagline: "Melhor pra criadores de conteúdo profissionais",
       description:
         "O Air 3S sobe a régua técnica significativamente em relação ao Mini 4 Pro. O sensor da câmera principal é de 1\" CMOS — mais que o dobro de área do Mini, com 14 stops de alcance dinâmico, captura detalhe em sombras e altas luzes que os sensores menores perdem. Soma uma segunda câmera com lente teleobjetiva de 70mm, que muda o jogo para retratos e composições compridas sem precisar pôs-edição. É o primeiro DJI consumer com LiDAR frontal, então voa com segurança em pouca luz, e tem 45 minutos de autonomia. Pesa mais de 250g (precisa cadastro ANAC, mas é gratuito) e custa entre R$ 12-15k. Vale para quem ganha dinheiro com o conteúdo (YouTubers, fotografia profissional, casamentos) ou para quem realmente prioriza qualidade de imagem acima de portabilidade. Para uso casual e turismo, o Mini 4 Pro entrega 80% da experiência por menos da metade do preço.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/P/B0DRW2PSKW._SX466_.jpg",
       amazonAsin: "B0DRW2PSKW",
       mercadoLivreUrl: "https://lista.mercadolivre.com.br/dji-air-3s",
       pros: [
@@ -91,7 +94,7 @@ export const dronesMaio2026: ProductList = {
       tagline: "O drone mais acessível da DJI — controle pelo smartphone",
       description:
         "O Neo redefiniu a entrada da DJI no Brasil. Pesa apenas 135g (totalmente isento de regulação ANAC para uso recreativo, é a categoria menos restritiva), e mais inusitado: você pode voar sem nenhum controle remoto — decola da palma da mão, te segue automaticamente via reconhecimento de IA, executa quickshots pré-definidos e pousa de volta na sua mão. Câmera 4K UHD estabilizada digitalmente (não tem gimbal mecânico, é o principal compromisso para chegar nesse peso/preço). Autonomia de 18 minutos é curta — invista no combo com 3 baterias se for usar em viagens. Por R$ 1.299 a versão básica, é difícil bater como ponto de entrada — especialmente para quem ainda tem receio de pilotar drone manualmente. Não substitui um Mini ou Air para conteúdo sério, mas para vlogs casuais, social media e diversão, entrega muito por pouco.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/P/B0DG9WHMF6._SX466_.jpg",
       amazonAsin: "B0DG9WHMF6",
       mercadoLivreUrl:
         "https://www.mercadolivre.com.br/drone-dji-neo-standard-br-dji050-cor-cinza/p/MLB40399215",
@@ -113,7 +116,7 @@ export const dronesMaio2026: ProductList = {
       tagline: "Compacto com proteção integrada de hélice",
       description:
         "O Flip é o lançamento DJI de 2025 que fica entre o Neo e o Mini 4 Pro. Pesa menos de 249g (sem cadastro ANAC), filma em 4K/60fps com 48MP em fotos, e a sacada principal é o protetor de hélice integrado, dobrável — você pode voar próximo de pessoas e em ambientes fechados com risco bem menor de acidente. O sensor é 1/1,3\" com abertura f/1,7 (boa luz baixa para o segmento) e gimbal mecânico de 3 eixos. Decolagem da palma como o Neo, mas com qualidade de câmera e estabilização mais próxima do Mini. Autonomia de 31 minutos. É um drone que faz sentido se você prioriza segurança (filmar pessoas próximas, eventos, crianças) ou simplesmente quer algo mais robusto para uso indoor sem perder qualidade. Como é mais novo, tem menos avaliações ainda — esperamos ver mais comparações ao longo do ano.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/P/B0DSWMM7ZW._SX466_.jpg",
       amazonAsin: "B0DSWMM7ZW",
       mercadoLivreUrl: "https://lista.mercadolivre.com.br/dji-flip",
       pros: [
@@ -133,7 +136,7 @@ export const dronesMaio2026: ProductList = {
       tagline: "Melhor entrada DJI custo-benefício",
       description:
         "O Mini 3 (não confundir com o Mini 3 Pro, mais caro) é o ponto-doce de custo-benefício da linha Mini. Pesa 249g, filma em 4K HDR com gimbal mecânico de 3 eixos, e a versão Fly More Combo vem com 3 baterias — usando a bateria Plus, são até 51 minutos de voo por bateria, autonomia que nem drones muito mais caros entregam. Não tem sensores anti-colisão (Mini 3 Pro tem), nem 4K/60 (vai até 4K/30), e a transmissão é OcuSync 2.0 (até 10km, suficiente para uso normal). Por aproximadamente R$ 4-5k no combo, é o drone que mais se vende no Brasil pra quem quer entrar na DJI com qualidade real, sem precisar pagar pelos sensores premium. Se você não voa próximo de obstáculos e quer pura qualidade de imagem com longa autonomia, é uma escolha excepcional.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/P/B0C9MST91Q._SX466_.jpg",
       amazonAsin: "B0C9MST91Q",
       mercadoLivreUrl: "https://lista.mercadolivre.com.br/dji-mini-3",
       pros: [
@@ -153,7 +156,7 @@ export const dronesMaio2026: ProductList = {
       tagline: "O melhor drone FPV pra cinematic flight imersivo",
       description:
         "O Avata 2 é o drone FPV (First Person View) mais maduro do mercado consumer. Você pilota usando os DJI Goggles 3 (incluídos no Combo), com transmissão de vídeo em tempo real direto pros seus olhos, e a sensação é de estar dentro do drone. Câmera 4K/60 HDR com sensor 1/1.3\", protetor de hélice integrado (essencial — drones FPV batem em coisas com frequência), e o controle por movimento do RC Motion 3 simplifica MUITO a curva de aprendizado vs. um drone FPV tradicional de stick. O Combo inclui Goggles, RC Motion, drone e baterias — sai pronto pra voar por R$ 8-10k. Importante: isso é um drone para uso ESPECÍFICO (filmagem dinâmica, esportes, perseguição), não substitui um Mini 4 Pro para foto cinematográfica estática. Se você nunca voou drone, comece por um Mini, não por um FPV.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/P/B0CS6HVW6P._SX466_.jpg",
       amazonAsin: "B0CS6HVW6P",
       mercadoLivreUrl: "https://lista.mercadolivre.com.br/dji-avata-2",
       pros: [
@@ -173,7 +176,7 @@ export const dronesMaio2026: ProductList = {
       tagline: "Profissional cinematográfico com câmera Hasselblad",
       description:
         "O Mavic 3 Pro é o flagship absoluto da DJI consumer. Triple cam: Hasselblad principal com sensor 4/3 CMOS (o maior em drone consumer, equivalente a uma câmera mirrorless intermediária), 70mm tele e 166mm super-tele — três focais que cobrem do retrato à compressão de paisagem distante. Vídeo até 5.1K/50fps ou 4K/120fps em slow motion. Autonomia de 43 minutos, transmissão OcuSync 3+ com 15km. Preço entre R$ 25-30k no combo — não é compra impulsiva. É a escolha para quem produz conteúdo onde a qualidade do ar é parte do produto: comerciais, documentário, cinema, fotografia imobiliária high-end, casamentos sofisticados. Para qualquer outro uso é overkill — o Air 3S faz quase tudo por menos da metade.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/P/B0C4B57M9Q._SX466_.jpg",
       amazonAsin: "B0C4B57M9Q",
       mercadoLivreUrl: "https://lista.mercadolivre.com.br/dji-mavic-3-pro",
       pros: [
