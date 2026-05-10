@@ -6,7 +6,7 @@ export default function HomePage() {
     <div className="mx-auto w-full max-w-6xl px-6 pt-20 pb-24">
       <section className="max-w-3xl">
         <p className="text-sm font-medium uppercase tracking-widest text-brand">
-          Análises independentes
+          Recomendações inteligentes, compras satisfeitas
         </p>
         <h1 className="mt-4 text-5xl font-semibold tracking-tight text-foreground sm:text-6xl">
           Os melhores produtos, escolhidos com critério.
