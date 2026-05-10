@@ -2,6 +2,41 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ProductCard } from "@/components/product-card";
 import { getAllSlugs, getListBySlug } from "@/lib/lists";
+import { buildAmazonUrl } from "@/lib/affiliate";
+import type { ProductList } from "@/lib/types";
+
+function buildJsonLd(list: ProductList, baseUrl: string) {
+  const itemList = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: list.title,
+    description: list.metaDescription,
+    numberOfItems: list.products.length,
+    itemListElement: list.products.map((p) => ({
+      "@type": "ListItem",
+      position: p.rank,
+      item: {
+        "@type": "Product",
+        name: p.name,
+        description: p.tagline,
+        image: `${baseUrl}${p.imageUrl}`,
+        url: buildAmazonUrl({ asin: p.amazonAsin, url: p.amazonUrl }) ?? undefined,
+      },
+    })),
+  };
+  const faqPage = list.faq && list.faq.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: list.faq.map((q) => ({
+          "@type": "Question",
+          name: q.question,
+          acceptedAnswer: { "@type": "Answer", text: q.answer },
+        })),
+      }
+    : null;
+  return [itemList, faqPage].filter(Boolean);
+}
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -41,9 +76,17 @@ export default async function ListPage(props: PageProps<"/[slug]">) {
 
   const updatedAt = dateFormatter.format(new Date(list.updatedAt));
   const top3 = list.products.slice(0, 3);
+  const jsonLd = buildJsonLd(list, "https://recomendou.com.br");
 
   return (
     <div className="mx-auto w-full max-w-4xl px-6 pt-8 pb-24 sm:pt-10">
+      {jsonLd.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <article>
         <header className="pb-6">
           <p className="text-xs font-semibold uppercase tracking-widest text-brand">
