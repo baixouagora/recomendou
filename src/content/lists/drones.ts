@@ -4,8 +4,8 @@ import type { ProductList } from "@/lib/types";
 // Links Mercado Livre: shortlinks afiliados gerados em mercadolivre.com.br/afiliados (meli.la/XXXX).
 // Links Amazon: tag recomendou01-20 injetada automaticamente via buildAmazonUrl.
 
-export const dronesMaio2026: ProductList = {
-  slug: "10-melhores-drones-maio-2026",
+export const dronesList: ProductList = {
+  slug: "10-melhores-drones",
   title: "Os 10 Melhores Drones (Maio 2026)",
   category: "Drones",
   monthYear: "Maio de 2026",

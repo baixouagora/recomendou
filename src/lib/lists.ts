@@ -1,7 +1,7 @@
-import { dronesMaio2026 } from "@/content/lists/drones-maio-2026";
+import { dronesList } from "@/content/lists/drones";
 import type { ProductList } from "@/lib/types";
 
-export const allLists: ProductList[] = [dronesMaio2026];
+export const allLists: ProductList[] = [dronesList];
 
 export function getListBySlug(slug: string): ProductList | undefined {
   return allLists.find((list) => list.slug === slug);
