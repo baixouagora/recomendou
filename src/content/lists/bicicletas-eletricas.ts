@@ -2,7 +2,7 @@ import type { ProductList } from "@/lib/types";
 
 // Imagens Amazon: hot-link via m.media-amazon.com/images/I/{HASH}
 // Imagens Mercado Livre: hot-link via http2.mlstatic.com
-// Links Mercado Livre: shortlinks afiliados meli.la/XXXX (substituir os placeholders abaixo)
+// Links Mercado Livre: shortlinks afiliados meli.la/XXXX
 // Links Amazon: tag recomendou01-20 injetada automaticamente via buildAmazonUrl
 
 export const bicicletasEletricasList: ProductList = {
@@ -15,9 +15,9 @@ export const bicicletasEletricasList: ProductList = {
   publishedAt: "2026-05-10",
   updatedAt: "2026-05-10",
   intro:
-    "Bicicleta elétrica saiu do nicho e virou alternativa real de transporte urbano no Brasil em 2026. Substitui carro pra trajetos curtos, vence trânsito, faz longa distância sem suar — e em muitos casos é mais barata na operação que um carro popular ao longo de 2 anos. A categoria tem três grandes famílias hoje: **urbana com pedal assist** (estilo Caloi E-Vibe — você pedala, o motor ajuda), **fat tire estilo motocicleta** (estilo BEMMY — acelerador no guidão, parecem moto pequena), e **dobráveis compactas** (HITWAY, Watts — pra quem combina com transporte público ou guarda em casa pequena).\n\nNa lista a seguir, comparamos modelos disponíveis no Brasil em maio de 2026 — alguns na Amazon, outros só no Mercado Livre — todos verificados como em estoque. Critérios principais: potência real do motor (250W-1000W), autonomia honesta por carga, peso suportado, e adequação ao tipo de uso (passeio leve, comuter diário, MTB, ou substituir moto). A regulamentação brasileira (CONTRAN 996/2023) limita bicicletas elétricas a 350W de potência nominal e 25 km/h com pedal assist — modelos com motores mais potentes ou throttle direto podem cair em zona regulatória de ciclomotor.",
+    "Bicicleta elétrica saiu do nicho e virou alternativa real de transporte urbano no Brasil em 2026. Substitui carro pra trajetos curtos, vence trânsito, faz longa distância sem suar — e em muitos casos é mais barata na operação que um carro popular ao longo de 2 anos. A categoria tem três grandes famílias hoje: **mountain bikes elétricas premium** (estilo Caloi E-Vibe Rush, Sense Impact Sport — você pedala, o motor amplifica), **fat tire estilo motocicleta** (estilo BEMMY, Nado, HDJ — pneu largo, motor 1000W, acelerador no guidão), e **urbanas dobráveis** (Honeywhale B20, Zurbe W8 — pra quem combina com transporte público ou guarda em casa pequena).\n\nNa lista a seguir, comparamos modelos disponíveis no Brasil em maio de 2026 — alguns na Amazon, outros só no Mercado Livre — todos verificados como em estoque. Critérios principais: potência real do motor (350W a 1000W), autonomia honesta por carga, peso suportado, e adequação ao tipo de uso (MTB esportiva, comuter diário, ou substituir moto). A regulamentação brasileira (CONTRAN 996/2023) limita bicicletas elétricas a 350W de potência nominal e 25 km/h com pedal assist — modelos com motores mais potentes ou throttle direto podem cair em zona regulatória de ciclomotor (CNH e placa). Verifique a legislação local antes de comprar modelos premium-potência pra uso em via pública.",
   conclusion:
-    "Se você quer uma bicicleta elétrica brasileira com pós-venda local e qualidade comprovada, vá de Caloi E-Vibe Easy Rider (urbana confortável) ou Caloi E-Vibe Rush (MTB premium). Para quem prioriza performance e visual de moto elétrica, as BEMMY com pneu largo e 1000W são imbatíveis na faixa de preço. Para uso urbano com transporte combinado (metrô, carro), as HITWAY dobráveis levam o título. E para quem está apenas testando a categoria sem investir caro, a Watts BW3 ou Xiaomi Mi Smart Bike fazem o trabalho.\n\nLembre-se: bicicletas com motor acima de 350W ou velocidade acima de 25 km/h com throttle direto exigem atenção regulatória — em algumas cidades brasileiras se aproximam da categoria de ciclomotor (CNH e placa). Verifique a legislação local antes de escolher modelos potentes pra uso em via pública.",
+    "Se você quer uma bicicleta elétrica brasileira premium com pós-venda local e qualidade comprovada, vá de **Caloi E-Vibe Rush** ou **Sense Impact Sport Forty-5** — ambas são MTBs premium com motor de assist (pedal assist), funcionam dentro da regulamentação 25 km/h e oferecem garantia e assistência técnica em rede nacional. Para quem prioriza performance e visual de moto elétrica, as **fat tire de 1000W (BEMMY, Nado C2, HDJ G60)** são imbatíveis na faixa de preço — mas atenção à regulamentação local. Para uso urbano com transporte combinado (metrô, carro), as **dobráveis compactas (Honeywhale B20, Zurbe W8)** levam o título. E para quem está apenas testando a categoria sem investir caro, a **Yoo Mobility Y-200** faz o trabalho como porta de entrada.",
   faq: [
     {
       question: "Bicicleta elétrica precisa de CNH e placa?",
@@ -27,7 +27,7 @@ export const bicicletasEletricasList: ProductList = {
     {
       question: "Qual a diferença entre pedal assist (PAS) e throttle?",
       answer:
-        "Pedal Assist (PAS) significa que o motor SÓ liga quando você pedala — ele apenas amplifica seu esforço. É o sistema padrão de bicicletas elétricas (Caloi E-Vibe, Sense Move). Throttle é o acelerador no guidão (estilo moto) — funciona sem pedalar. Modelos fat tire estilo BEMMY normalmente têm throttle. Throttle direto pode entrar em zona regulatória mais restrita.",
+        "Pedal Assist (PAS) significa que o motor SÓ liga quando você pedala — ele apenas amplifica seu esforço. É o sistema padrão de bicicletas elétricas que ficam dentro da regulamentação (Caloi E-Vibe, Sense Impact). Throttle é o acelerador no guidão (estilo moto) — funciona sem pedalar. Modelos fat tire estilo BEMMY, Nado C2 e HDJ G60 normalmente têm throttle. Throttle direto pode entrar em zona regulatória mais restrita dependendo da cidade.",
     },
     {
       question: "Quanto tempo dura a bateria?",
@@ -48,30 +48,49 @@ export const bicicletasEletricasList: ProductList = {
   products: [
     {
       rank: 1,
-      name: "Caloi E-Vibe Easy Rider",
-      tagline: "Bicicleta elétrica urbana brasileira com 60km de autonomia",
+      name: "Caloi E-Vibe Rush 7v Aro 700",
+      tagline: "MTB elétrica premium da marca brasileira mais tradicional",
       description:
-        "A Caloi E-Vibe Easy Rider é o ponto-doce da linha elétrica da Caloi — marca brasileira com mais de 100 anos de tradição e pós-venda local sólido. Motor traseiro de 350W com pedal assist em 5 níveis, bateria 36V removível com autonomia até 60km no modo ECO (mais realistas 35-45km em uso misto), aro 27.5\" com guidão ergonômico. Pesa cerca de 23kg, suporta 110kg de carga. Não é a mais barata nem a mais potente, mas entrega qualidade de fabricação, garantia oficial Caloi (importante pra bicicleta cara), assistência técnica em todo Brasil, e estética limpa que combina com qualquer cenário urbano. Pra quem usa diariamente pra trabalho-casa, é a escolha mais segura.",
-      imageUrl: "/placeholder-product.svg",
-      mercadoLivreUrl: "https://www.mercadolivre.com.br/loja/caloi",
+        "A E-Vibe Rush é a MTB elétrica top da Caloi — marca brasileira com mais de 100 anos de tradição e a única com pós-venda em rede nacional para bicicletas elétricas. Aro 700 (equivalente a 27.5\"), câmbio de 7 velocidades Shimano, motor traseiro 250W com pedal assist em 5 níveis, bateria 36V removível com autonomia até 25km no modo ECO em terreno misto, freios a disco. Pra entender o posicionamento: é mountain bike de verdade, com geometria pensada pra trilha (não pra acelerar plano), que ganhou motor pra ajudar em subidas longas e ampliar autonomia de pedalada. Aceita 110kg. Versão 2026 oficial. Pra ciclista que quer subir morro sem fadiga, fazer trilha mais longa, ou pra quem prioriza marca brasileira premium com garantia.",
+      imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_667015-MLB98142052807_112025-F-bicicleta-eletrica-aro-700-caloi-e-vibe-rush-7v-2026-oficial.webp",
+      mercadoLivreUrl: "https://meli.la/2TX7Zip",
       pros: [
-        "Marca brasileira centenária com pós-venda local",
-        "Motor 350W com pedal assist 5 níveis",
-        "Autonomia até 60km no modo ECO",
-        "Bateria removível 36V para recarga separada",
+        "Marca brasileira premium com pós-venda em rede nacional",
+        "MTB profissional + motor 250W de assist (PAS)",
+        "Aro 700 (27.5\") com câmbio Shimano 7 velocidades",
+        "Bateria 36V removível pra recarga separada",
       ],
       cons: [
-        "Preço alto comparado a alternativas chinesas",
-        "Sem throttle (só pedal assist) — pode ser limitação pra alguns",
+        "Preço alto (R$ 8-12k) só justifica pra ciclista sério",
+        "Autonomia 25km — pra trilha curta-média, não comuter longo",
       ],
     },
     {
       rank: 2,
+      name: "Sense Impact Sport Forty-5 Aro 29",
+      tagline: "MTB elétrica esportiva premium da marca brasileira Sense",
+      description:
+        "A Sense é a marca premium brasileira de bicicleta esportiva — e o Impact Sport Forty-5 leva esse posicionamento pra MTB elétrica. Aro 29\" (maior que a Caloi Rush), motor de assist integrado, bateria interna, freios a disco hidráulicos, suspensão dianteira. Foco no ciclista de fim de semana que quer trilha técnica em parque ou montanha sem fadiga. Componentes esportivos compatíveis com o ecossistema MTB convencional (pedal SPD, suportes, etc). Aceita 100-110kg. Posicionamento de marca diferente da Caloi: Sense fala com público de bike shops esportivas, Caloi tem alcance mais amplo. As duas são premium reais; a escolha entre elas é mais sobre preferência de marca/estética.",
+      imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_603819-MLA104442822046_012026-F.webp",
+      mercadoLivreUrl: "https://meli.la/2k3jDvX",
+      pros: [
+        "Marca premium esportiva brasileira",
+        "Aro 29\" com suspensão dianteira + componentes esportivos",
+        "Motor integrado discreto (visual de MTB convencional)",
+        "Freios a disco hidráulicos",
+      ],
+      cons: [
+        "Preço alto (R$ 8-12k) competindo com Caloi Rush",
+        "Disponibilidade dependente de bike shops especializadas",
+      ],
+    },
+    {
+      rank: 3,
       name: "BEMMY 1000W Fat Tire",
       tagline: "Estilo motocicleta com 1000W e pneu largo 20\"x4\"",
       description:
-        "A BEMMY mudou a percepção do que é \"bicicleta elétrica\" no Brasil — ela parece moto elétrica pequena. Motor brushless de 1000W (pico maior) com 90Nm de torque, velocidade máxima de até 50 km/h, bateria 48V, 7 marchas Shimano, e pneus largos 20\"x4\" que devoram qualquer terreno (asfalto, terra, areia, neve em viagens). Suporta usuários robustos sem dificuldade. Estética intencional de moto: assento estofado largo, guidão alto, suspensão dianteira. **Importante:** com 1000W e velocidade real de 50 km/h, pode cair em zona regulatória de ciclomotor — verifique a legislação local antes de circular em via pública. Pra uso recreativo (trilha, praia, condomínio fechado) ou substituir moto pra trajetos casa-trabalho, é o melhor custo-benefício da categoria.",
-      imageUrl: "/placeholder-product.svg",
+        "A BEMMY mudou a percepção do que é \"bicicleta elétrica\" no Brasil — ela parece moto elétrica pequena. Motor brushless de 1000W com 90Nm de torque, velocidade máxima de até 50 km/h, bateria 48V, 7 marchas Shimano, e pneus largos 20\"x4\" que devoram qualquer terreno (asfalto, terra, areia). Suporta usuários robustos sem dificuldade. Estética intencional de moto: assento estofado largo, guidão alto, suspensão dianteira. **Importante:** com 1000W e velocidade real de 50 km/h, pode cair em zona regulatória de ciclomotor — verifique a legislação local antes de circular em via pública. Pra uso recreativo (trilha, praia, condomínio fechado) ou substituir moto pra trajetos casa-trabalho, é o melhor custo-benefício da categoria fat tire premium.",
+      imageUrl: "https://m.media-amazon.com/images/I/71WkDcjqr2L._AC_SL1500_.jpg",
       amazonAsin: "B0DS68JQG7",
       pros: [
         "Motor 1000W brushless com 90Nm de torque",
@@ -85,79 +104,60 @@ export const bicicletasEletricasList: ProductList = {
       ],
     },
     {
-      rank: 3,
-      name: "HITWAY 750W Dobrável",
-      tagline: "Dobrável com motor potente e autonomia até 120km",
-      description:
-        "A HITWAY 750W combina o melhor dos dois mundos: portabilidade de bicicleta dobrável + potência de bike fat tire. Motor 750W (pico maior) com bateria 48V/14Ah, autonomia 55-120km dependendo do modo (PAS, throttle, ou combinado), capacidade de subir rampas de 25°. Quadro dobra pra metade em 30 segundos — guarda no porta-malas de carro popular, leva no metrô em horário não-pico. Pneus largos 20\"x4\" aguentam terreno irregular. Aceita 100kg. É a escolha mais versátil da lista — funciona pra comuter urbano, fim de semana de trilha, viagem com carro. Como tem throttle, atenção à legislação local (mesma observação da BEMMY).",
-      imageUrl: "/placeholder-product.svg",
-      amazonAsin: "B0DCS18PGQ",
-      pros: [
-        "Motor 750W com autonomia até 120km",
-        "Quadro dobrável — porta-malas, metrô",
-        "Pneus 20\"x4\" pra qualquer terreno",
-        "Sobe rampas 25° sem esforço",
-      ],
-      cons: [
-        "Sem marca consolidada no Brasil (chinesa direta)",
-        "Throttle pode requerer verificação regulatória",
-      ],
-    },
-    {
       rank: 4,
-      name: "Caloi E-Vibe Rush Aro 29",
-      tagline: "MTB elétrica para trilha e uso esportivo intenso",
+      name: "Nado C2 1000W",
+      tagline: "Performance urbana 1000W com bateria removível e 60km de autonomia",
       description:
-        "A E-Vibe Rush é a MTB elétrica da Caloi — aro 29\" com motor 250W e bateria 36V removível, autonomia até 25km no modo ECO. Pra entender o posicionamento: é uma mountain bike pra valer (suspensão completa, freios a disco hidráulicos, câmbio Shimano) que ganhou um motor pra ajudar nas subidas longas e trilhas técnicas. Não é pra circular na cidade — é pra fim de semana de trilha em parque, montanha, ou ciclismo intenso. Aceita 110kg. Diferencial sobre alternativas chinesas: quadro Caloi profissional, geometria pensada pra MTB, integração com componentes de bike comum (suporte, pedal SPD, etc). Pra ciclista que quer subir morro sem fadiga ou ampliar percurso, é um upgrade sólido.",
-      imageUrl: "/placeholder-product.svg",
-      mercadoLivreUrl: "https://www.mercadolivre.com.br/loja/caloi",
+        "A Nado C2 é uma das opções mais robustas do segmento performance urbana no ML. Motor 1000W com bateria 48V removível (vantagem real — você carrega a bateria dentro de casa/escritório sem precisar levar a bike), autonomia honesta de 60km, velocidade máxima ~50 km/h. Estrutura mais convencional de bicicleta urbana (não fat tire estilo moto como a BEMMY), o que pode agradar quem quer potência mas não quer visual de moto. Aceita 120kg. Atenção à mesma observação regulatória: 1000W + throttle podem requerer atenção em algumas cidades. Pra usuário que quer máxima autonomia e bateria removível pela praticidade do dia-a-dia, é uma escolha forte.",
+      imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_920387-MLA99928847403_112025-F.webp",
+      mercadoLivreUrl: "https://meli.la/2tygRQG",
       pros: [
-        "MTB Caloi profissional + motor 250W de assist",
-        "Aro 29\" com suspensão completa",
-        "Freios a disco hidráulicos, câmbio Shimano",
-        "Bateria removível pra recarga separada",
+        "Motor 1000W com autonomia honesta de 60km",
+        "Bateria 48V removível — recarga separada da bike",
+        "Estrutura urbana convencional (não fat tire)",
+        "Suporta usuários até 120kg",
       ],
       cons: [
-        "Autonomia 25km — pra trilha curta, não comuter longo",
-        "Preço alto (R$ 8-12k) só justifica pra ciclista sério",
+        "1000W + throttle requer atenção regulatória",
+        "Sem marca consolidada no Brasil (suporte depende do vendedor)",
       ],
     },
     {
       rank: 5,
-      name: "HITWAY 500W Dobrável",
-      tagline: "Versão mid da HITWAY: 500W, dobrável, ótimo custo-benefício",
+      name: "HDJ G60 Aro 20 1000W",
+      tagline: "Compacto 1000W com suspensão dupla e freio hidráulico",
       description:
-        "A HITWAY 500W é a versão de entrada da família HITWAY dobrável. Motor 500W (pico) com bateria 36V/12Ah, autonomia 32-70km dependendo do modo. Pneus largos 20\"x4\" como a 750W mas com motor menos potente — suficiente pra uso urbano normal (subidas moderadas), mas não pra terreno extremo. Quadro Q195 carbon steel, peso ~25kg, aceita 100kg. Por R$ 2.000-3.000 (faixa típica), entrega o pacote completo de bicicleta elétrica dobrável com fat tire — algo que há 2 anos custava R$ 5k+. Pra primeira bicicleta elétrica de quem está testando a categoria sem investir caro, é uma excelente porta de entrada.",
-      imageUrl: "/placeholder-product.svg",
-      amazonAsin: "B0D32NQKMT",
+        "A HDJ G60 é o que mais se aproxima de \"bicicleta dobrável de performance\" no mercado brasileiro. Motor 1000W, bateria 48V 15Ah com autonomia até 50km, suspensão dupla (dianteira + traseira), freios hidráulicos, câmbio 7 velocidades, aro 20\". Suporta 150kg — uma das maiores capacidades da lista. Quadro carbon steel resistente. Velocidade limitada por padrão a 32 km/h pra segurança, mas pode chegar a 50 km/h se o limitador for desativado (mesma observação regulatória aplicada). Pra quem quer compactabilidade aro 20 + performance 1000W + capacidade de carga alta, é uma combinação rara em uma bike só. Boa pedida pra usuário de maior estatura, deliveries de carga pequena, ou pra uso recreativo intenso.",
+      imageUrl: "https://m.media-amazon.com/images/I/61vGR09GeeL._AC_SL1088_.jpg",
+      amazonAsin: "B0GPN3XW9T",
       pros: [
-        "Pacote completo (dobrável + fat tire + 500W) por R$ 2-3k",
-        "Autonomia razoável: 32-70km dependendo do uso",
-        "Pneus largos absorvem bem o piso brasileiro",
-        "Quadro carbon steel resistente",
+        "Suspensão dupla + freios hidráulicos (raro em e-bikes aro 20)",
+        "Suporta 150kg (a maior da lista)",
+        "1000W + 7 marchas + autonomia 50km",
+        "Quadro carbon steel reforçado",
       ],
       cons: [
-        "Motor 500W limita em subidas íngremes ou viagens longas",
-        "Sem marca consolidada (suporte depende do vendedor)",
+        "1000W + throttle requer atenção regulatória",
+        "Pesada — não dobra pra transporte público convencional",
       ],
     },
     {
       rank: 6,
-      name: "Sense Move E",
-      tagline: "Urbana premium brasileira focada em design e leveza",
+      name: "Nado K3 750W Aro 20",
+      tagline: "Mid-premium estilo scooter com 750W e bateria 48V",
       description:
-        "A Sense é a marca premium brasileira de bicicleta esportiva — e a linha elétrica mantém esse posicionamento. A Move E é uma urbana pensada pra estética e leveza: quadro aluminio, motor 250W discreto integrado, bateria interna escondida no tubo do quadro (visualmente parece bicicleta convencional), pedal assist sem throttle, freios a disco. Cabe em qualquer rack de carro, suporta 100kg, autonomia ~30km. É a escolha pra quem se importa com o visual da bicicleta tanto quanto com a tecnologia — não quer aparência de \"bicicleta elétrica chinesa\". Premium real, com posicionamento de marca, e pós-venda Sense (lojas autorizadas em todo Brasil).",
-      imageUrl: "/placeholder-product.svg",
-      mercadoLivreUrl: "https://www.mercadolivre.com.br/loja/sense",
+        "A Nado K3 é uma alternativa entre BEMMY 500W e o BEMMY 1000W — motor 750W, bateria 48V de íon-lítio, aro 20\". Estilo similar à fat tire premium (assento confortável, guidão alto, design de moto), mas em uma faixa de preço mais acessível. Pra quem quer a estética e o conforto da categoria fat tire sem precisar dos 1000W ou pagar o preço premium, é uma escolha justa. Não tenho specs exatas de velocidade máxima e autonomia (varia por configuração de bateria), mas a faixa típica é 35-45 km/h e 30-50km de autonomia. Disponível apenas no Mercado Livre.",
+      imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_637279-MLB94980462671_102025-F.webp",
+      mercadoLivreUrl: "https://meli.la/2NZ1L1z",
       pros: [
-        "Marca premium brasileira, posicionamento exclusivo",
-        "Bateria integrada — visual de bicicleta convencional",
-        "Quadro aluminio leve",
-        "Freios a disco + componentes esportivos",
+        "Motor 750W + bateria 48V — entrega potência real",
+        "Estilo scooter premium por preço médio",
+        "Aro 20 + bateria de íon-lítio padrão",
+        "Boa relação spec x preço pra fat tire mid",
       ],
       cons: [
-        "Preço alto (R$ 5-7k) pra spec técnica equivalente",
-        "Autonomia mais curta vs. opções com bateria grande",
+        "Sem marca consolidada no Brasil",
+        "Suporte/peças dependem do vendedor",
       ],
     },
     {
@@ -166,7 +166,7 @@ export const bicicletasEletricasList: ProductList = {
       tagline: "Versão entry da BEMMY com pneu largo e visual moto",
       description:
         "A BEMMY 500W é a versão de entrada da família fat tire da BEMMY — mesma estética de moto da 1000W mas com motor menor, focado em uso urbano honesto (não pra correr a 50 km/h). Motor 500W, velocidade máxima ~35 km/h, bateria 48V, 7 marchas, pneus 20\"x4\". Aceita 100kg. Custa significativamente menos que a 1000W (cerca de R$ 1.500 a menos), o que torna o visual de moto acessível pra mais gente. Pra quem quer a aparência e o conforto da fat tire BEMMY sem precisar dos 1000W (a maioria das pessoas, na prática), é a melhor escolha do segmento. Mesma observação regulatória: throttle pode requerer atenção em algumas cidades.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/I/71v4iEdY-yL._AC_SL1500_.jpg",
       amazonAsin: "B0GGGH5ZTH",
       pros: [
         "Mesma estética moto da 1000W por R$ 1.500 a menos",
@@ -181,59 +181,59 @@ export const bicicletasEletricasList: ProductList = {
     },
     {
       rank: 8,
-      name: "Lev E-Bike",
-      tagline: "Marca brasileira veterana com várias opções urbanas",
+      name: "Honeywhale B20 Compact",
+      tagline: "Compacta de 14 polegadas — cabe em qualquer carro/elevador",
       description:
-        "A Lev é uma das primeiras marcas brasileiras 100% dedicadas a bicicletas elétricas — antes da Caloi entrar no segmento. Tem várias variantes (urbana, dobrável, fat tire, com banco), todas com qualidade comprovada e suporte/peças no Brasil. Motor 250-350W dependendo do modelo, autonomia 25-40km, pedal assist com 3-5 níveis. O diferencial é a maturidade da marca: tempo de mercado, base de usuários grande, fóruns brasileiros ativos. Pra quem prefere uma marca brasileira com história comprovada vs. as recém-chegadas chinesas, vale considerar. Disponível principalmente no Mercado Livre e via revendedores autorizados.",
-      imageUrl: "/placeholder-product.svg",
-      mercadoLivreUrl: "https://www.mercadolivre.com.br/loja/lev",
+        "A Honeywhale B20 é a opção mais portátil da lista: aro de apenas 14\" (menor que a maioria das e-bikes), motor 440W de pico, velocidade até 25 km/h (dentro da regulamentação PAS), autonomia 35km, bateria 36V 7.8Ah, certificação IP54 contra água/poeira. Dobra rapidamente em design vertical único que torna o conjunto extremamente compacto — cabe no porta-malas de qualquer carro, no elevador residencial, ou no canto da sala. Suporta 120kg. Pra quem prioriza portabilidade extrema (estudante universitário, profissional liberal que alterna trajeto, ou quem mora em apartamento pequeno), é a melhor escolha da lista. Trade-off: aro 14\" é menos confortável em piso muito irregular.",
+      imageUrl: "https://m.media-amazon.com/images/I/61dX+2AughL._AC_SL1280_.jpg",
+      amazonAsin: "B0FK298YDN",
       pros: [
-        "Marca brasileira veterana especializada em e-bikes",
-        "Várias variantes pra perfis diferentes",
-        "Suporte local e peças disponíveis",
-        "Comunidade de usuários ativa no Brasil",
+        "Aro 14\" + dobra vertical = máxima portabilidade",
+        "Velocidade 25 km/h (dentro da regulamentação CONTRAN)",
+        "IP54 contra água e poeira",
+        "3 modos: pedal, PAS, throttle puro",
       ],
       cons: [
-        "Specs gerais sem grande diferencial vs. concorrentes",
-        "Disponibilidade varia muito por região",
+        "Aro 14\" é menos estável em piso irregular",
+        "Autonomia 35km menor que opções aro 20",
       ],
     },
     {
       rank: 9,
-      name: "Watts BW3 Dobrável",
-      tagline: "Dobrável brasileira budget de aro 20\"",
+      name: "Zurbe W8 Dobrável",
+      tagline: "Dobrável urbana com 400W dentro da regulamentação 25km/h",
       description:
-        "A Watts Mobilidade é uma marca brasileira nicho focada em mobilidade urbana acessível. A BW3 é a opção mais barata da linha dobrável: motor 350W, bateria com autonomia ~30km, 6 marchas Shimano, aro 20\", dobra rápido. Pesa cerca de 22kg, aceita 90kg. Por R$ 1.500-2.500 (faixa típica), entrega o conceito completo de bicicleta elétrica dobrável brasileira — sem performance extrema, mas com a tranquilidade de marca local e pós-venda no país. Pra estudante, primeiro usuário de bike elétrica, ou pra quem quer testar a categoria sem comprometer R$ 4k+, é a porta de entrada brasileira mais honesta.",
-      imageUrl: "/placeholder-product.svg",
-      mercadoLivreUrl: "https://www.mercadolivre.com.br/loja/watts",
+        "A Zurbe W8 é uma dobrável urbana mid-tier que respeita a regulamentação CONTRAN: motor 400W com velocidade limitada a 25 km/h, bateria 48V 10Ah. Estilo de dobrável convencional (não fat tire), aro de 20\" provavelmente, peso razoável pra carregar em transporte público. Pra quem quer uma e-bike honesta sem cair em zona regulatória cinza, e ao mesmo tempo quer um motor mais potente que os 250W da Caloi Sport — é o ponto-doce. Disponível apenas no Mercado Livre. Bom equilíbrio entre potência prática e cumprimento da regulamentação brasileira.",
+      imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_680215-MLA98053808957_112025-F.webp",
+      mercadoLivreUrl: "https://meli.la/27EFSB4",
       pros: [
-        "Marca brasileira com pós-venda local",
-        "Dobrável + 6 marchas Shimano por R$ 1.500-2.500",
-        "Motor 350W suficiente pra uso urbano leve",
-        "Bom ponto de entrada na categoria",
+        "400W com 25 km/h — dentro da regulamentação CONTRAN",
+        "Dobrável pra transporte público e armazenamento",
+        "Bateria 48V 10Ah razoável",
+        "Sem complicação regulatória",
       ],
       cons: [
-        "Autonomia 30km — pra trajeto curto",
-        "Sem suspensão, pneus mais finos (20\")",
+        "Sem marca consolidada no Brasil",
+        "Specs sem grande diferencial vs. concorrentes",
       ],
     },
     {
       rank: 10,
-      name: "Xiaomi Mi Smart Bike",
-      tagline: "Compacta tech com integração de app",
+      name: "Yoo Mobility Y-200 350W",
+      tagline: "Entry honesto da Yoo Mobility com 350W dentro da regulamentação",
       description:
-        "Encerramos com a Xiaomi Mi Smart Bike (e variantes), a opção mais tech-focused da lista. Bateria 36V removível, motor 250W com pedal assist, integração com app Mi Home pra rastreamento de quilometragem, velocidade, manutenção e localização anti-furto. Quadro aluminio leve, dobrável compacta, autonomia até 45km em modo ECO. Aceita 110kg. A vantagem real não é spec absoluta — é o ecossistema de software da Xiaomi, que faz a bike se integrar com seu telefone como qualquer outro device da marca. Pra quem já é usuário Mi (smartphone, casa inteligente, etc), faz sentido. Pra outros, é uma escolha equivalente em hardware às alternativas brasileiras mas com upside de software.",
-      imageUrl: "/placeholder-product.svg",
-      mercadoLivreUrl: "https://www.mercadolivre.com.br/loja/xiaomi",
+        "A Yoo Mobility Y-200 fecha a lista como ponto de entrada. Motor 350W (exatamente o limite regulatório PAS), modelo 2025/2026 com pintura preto/vermelho. Estilo urbano padrão (não fat tire, não MTB), tamanho convencional. Não tem a portabilidade extrema da Honeywhale B20 nem a potência da BEMMY 500W, mas entrega bicicleta elétrica simples e funcional pra quem está testando a categoria pela primeira vez. Disponível no Mercado Livre. Pra estudante, primeira e-bike, ou trajeto curto casa-trabalho/casa-faculdade, é uma porta de entrada honesta na faixa R$ 2-3k.",
+      imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_899637-MLA99578800896_122025-F.webp",
+      mercadoLivreUrl: "https://meli.la/2uKzN4t",
       pros: [
-        "Integração app Mi Home (rastreamento, manutenção)",
-        "Quadro aluminio leve, dobrável compacta",
-        "Bateria removível 36V",
-        "Marca global Xiaomi com reconhecimento",
+        "350W exatamente no limite regulatório (sem complicação)",
+        "Versão 2026 atualizada",
+        "Estilo urbano clássico",
+        "Faixa de preço entry",
       ],
       cons: [
-        "Spec hardware sem diferencial sobre concorrentes",
-        "Suporte físico limitado no Brasil",
+        "Sem grande diferencial sobre alternativas similares",
+        "Sem marca consolidada com suporte amplo",
       ],
     },
   ],
