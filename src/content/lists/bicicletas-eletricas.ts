@@ -15,9 +15,9 @@ export const bicicletasEletricasList: ProductList = {
   publishedAt: "2026-05-10",
   updatedAt: "2026-05-10",
   intro:
-    "Bicicleta elétrica saiu do nicho e virou alternativa real de transporte urbano no Brasil em 2026. Substitui carro pra trajetos curtos, vence trânsito, faz longa distância sem suar — e em muitos casos é mais barata na operação que um carro popular ao longo de 2 anos. A categoria tem três grandes famílias hoje: **mountain bikes elétricas premium** (estilo Caloi E-Vibe Rush, Sense Impact Sport — você pedala, o motor amplifica), **fat tire estilo motocicleta** (estilo BEMMY, Nado, HDJ — pneu largo, motor 1000W, acelerador no guidão), e **urbanas dobráveis** (Honeywhale B20, Zurbe W8 — pra quem combina com transporte público ou guarda em casa pequena).\n\nNa lista a seguir, comparamos modelos disponíveis no Brasil em maio de 2026 — alguns na Amazon, outros só no Mercado Livre — todos verificados como em estoque. Critérios principais: potência real do motor (350W a 1000W), autonomia honesta por carga, peso suportado, e adequação ao tipo de uso (MTB esportiva, comuter diário, ou substituir moto). A regulamentação brasileira (CONTRAN 996/2023) limita bicicletas elétricas a 350W de potência nominal e 25 km/h com pedal assist — modelos com motores mais potentes ou throttle direto podem cair em zona regulatória de ciclomotor (CNH e placa). Verifique a legislação local antes de comprar modelos premium-potência pra uso em via pública.",
+    "Bicicleta elétrica saiu do nicho e virou alternativa real de transporte urbano no Brasil em 2026. Substitui carro pra trajetos curtos, vence trânsito, faz longa distância sem suar — e em muitos casos é mais barata na operação que um carro popular ao longo de 2 anos. A categoria tem três grandes famílias hoje: **mountain bikes elétricas premium** (estilo Caloi E-Vibe Rush, Sense Impact Sport — você pedala, o motor amplifica), **fat tire estilo motocicleta** (estilo Bemmy, Nado, HDJ — pneu largo, motor 1000W, acelerador no guidão), e **urbanas dobráveis** (Honeywhale B20, Zurbe W8 — pra quem combina com transporte público ou guarda em casa pequena).\n\nNa lista a seguir, comparamos modelos disponíveis no Brasil em maio de 2026 — alguns na Amazon, outros só no Mercado Livre — todos verificados como em estoque. Critérios principais: potência real do motor (350W a 1000W), autonomia honesta por carga, peso suportado, e adequação ao tipo de uso (MTB esportiva, comuter diário, ou substituir moto). A regulamentação brasileira (CONTRAN 996/2023) limita bicicletas elétricas a 350W de potência nominal e 25 km/h com pedal assist — modelos com motores mais potentes ou throttle direto podem cair em zona regulatória de ciclomotor (CNH e placa). Verifique a legislação local antes de comprar modelos premium-potência pra uso em via pública.",
   conclusion:
-    "Se você quer uma bicicleta elétrica brasileira premium com pós-venda local e qualidade comprovada, vá de **Caloi E-Vibe Rush** ou **Sense Impact Sport Forty-5** — ambas são MTBs premium com motor de assist (pedal assist), funcionam dentro da regulamentação 25 km/h e oferecem garantia e assistência técnica em rede nacional. Para quem prioriza performance e visual de moto elétrica, as **fat tire de 1000W (BEMMY, Nado C2, HDJ G60)** são imbatíveis na faixa de preço — mas atenção à regulamentação local. Para uso urbano com transporte combinado (metrô, carro), as **dobráveis compactas (Honeywhale B20, Zurbe W8)** levam o título. E para quem está apenas testando a categoria sem investir caro, a **Yoo Mobility Y-200** faz o trabalho como porta de entrada.",
+    "Se você quer uma bicicleta elétrica brasileira premium com pós-venda local e qualidade comprovada, vá de **Caloi E-Vibe Rush** ou **Sense Impact Sport Forty-5** — ambas são MTBs premium com motor de assist (pedal assist), funcionam dentro da regulamentação 25 km/h e oferecem garantia e assistência técnica em rede nacional. Para quem prioriza performance e visual de moto elétrica, as **fat tire de 1000W (Bemmy, Nado C2, HDJ G60)** são imbatíveis na faixa de preço — mas atenção à regulamentação local. Para uso urbano com transporte combinado (metrô, carro), as **dobráveis compactas (Honeywhale B20, Zurbe W8)** levam o título. E para quem está apenas testando a categoria sem investir caro, a **Yoo Mobility Y-200** faz o trabalho como porta de entrada.",
   faq: [
     {
       question: "Bicicleta elétrica precisa de CNH e placa?",
@@ -27,7 +27,7 @@ export const bicicletasEletricasList: ProductList = {
     {
       question: "Qual a diferença entre pedal assist (PAS) e throttle?",
       answer:
-        "Pedal Assist (PAS) significa que o motor SÓ liga quando você pedala — ele apenas amplifica seu esforço. É o sistema padrão de bicicletas elétricas que ficam dentro da regulamentação (Caloi E-Vibe, Sense Impact). Throttle é o acelerador no guidão (estilo moto) — funciona sem pedalar. Modelos fat tire estilo BEMMY, Nado C2 e HDJ G60 normalmente têm throttle. Throttle direto pode entrar em zona regulatória mais restrita dependendo da cidade.",
+        "Pedal Assist (PAS) significa que o motor SÓ liga quando você pedala — ele apenas amplifica seu esforço. É o sistema padrão de bicicletas elétricas que ficam dentro da regulamentação (Caloi E-Vibe, Sense Impact). Throttle é o acelerador no guidão (estilo moto) — funciona sem pedalar. Modelos fat tire estilo Bemmy, Nado C2 e HDJ G60 normalmente têm throttle. Throttle direto pode entrar em zona regulatória mais restrita dependendo da cidade.",
     },
     {
       question: "Quanto tempo dura a bateria?",
@@ -86,12 +86,12 @@ export const bicicletasEletricasList: ProductList = {
     },
     {
       rank: 3,
-      name: "BEMMY 1000W Fat Tire",
+      name: "Bemmy 1000W Fat Tire (Loja Oficial Bemmy-BR)",
       tagline: "Estilo motocicleta com 1000W e pneu largo 20\"x4\"",
       description:
-        "A BEMMY mudou a percepção do que é \"bicicleta elétrica\" no Brasil — ela parece moto elétrica pequena. Motor brushless de 1000W com 90Nm de torque, velocidade máxima de até 50 km/h, bateria 48V, 7 marchas Shimano, e pneus largos 20\"x4\" que devoram qualquer terreno (asfalto, terra, areia). Suporta usuários robustos sem dificuldade. Estética intencional de moto: assento estofado largo, guidão alto, suspensão dianteira. **Importante:** com 1000W e velocidade real de 50 km/h, pode cair em zona regulatória de ciclomotor — verifique a legislação local antes de circular em via pública. Pra uso recreativo (trilha, praia, condomínio fechado) ou substituir moto pra trajetos casa-trabalho, é o melhor custo-benefício da categoria fat tire premium.",
-      imageUrl: "https://m.media-amazon.com/images/I/71WkDcjqr2L._AC_SL1500_.jpg",
-      amazonAsin: "B0DS68JQG7",
+        "A Bemmy mudou a percepção do que é \"bicicleta elétrica\" no Brasil — ela parece moto elétrica pequena. Motor brushless de 1000W (com pico de 1500W) e 90Nm de torque, velocidade máxima de até 50 km/h, bateria 48V, 7 marchas, e pneus largos 20\"x4\" que devoram qualquer terreno (asfalto, terra, areia). Esta versão é a da loja oficial Bemmy-BR — garante peças, assistência e atualizações originais, contraponto a variantes não-autorizadas vendidas por outros sellers na Amazon. Estética intencional de moto: assento estofado largo, guidão alto, suspensão dianteira. **Importante:** com 1000W e velocidade real de 50 km/h, pode cair em zona regulatória de ciclomotor — verifique a legislação local antes de circular em via pública. Pra uso recreativo (trilha, praia, condomínio fechado) ou substituir moto pra trajetos casa-trabalho, é o melhor custo-benefício da categoria fat tire premium.",
+      imageUrl: "https://m.media-amazon.com/images/I/71JKTWq9klL._AC_SL1500_.jpg",
+      amazonAsin: "B0FQ586T2D",
       pros: [
         "Motor 1000W brushless com 90Nm de torque",
         "Pneu largo 20\"x4\" — anda em qualquer terreno",
@@ -108,7 +108,7 @@ export const bicicletasEletricasList: ProductList = {
       name: "Nado C2 1000W",
       tagline: "Performance urbana 1000W com bateria removível e 60km de autonomia",
       description:
-        "A Nado C2 é uma das opções mais robustas do segmento performance urbana no ML. Motor 1000W com bateria 48V removível (vantagem real — você carrega a bateria dentro de casa/escritório sem precisar levar a bike), autonomia honesta de 60km, velocidade máxima ~50 km/h. Estrutura mais convencional de bicicleta urbana (não fat tire estilo moto como a BEMMY), o que pode agradar quem quer potência mas não quer visual de moto. Aceita 120kg. Atenção à mesma observação regulatória: 1000W + throttle podem requerer atenção em algumas cidades. Pra usuário que quer máxima autonomia e bateria removível pela praticidade do dia-a-dia, é uma escolha forte.",
+        "A Nado C2 é uma das opções mais robustas do segmento performance urbana no ML. Motor 1000W com bateria 48V removível (vantagem real — você carrega a bateria dentro de casa/escritório sem precisar levar a bike), autonomia honesta de 60km, velocidade máxima ~50 km/h. Estrutura mais convencional de bicicleta urbana (não fat tire estilo moto como a Bemmy), o que pode agradar quem quer potência mas não quer visual de moto. Aceita 120kg. Atenção à mesma observação regulatória: 1000W + throttle podem requerer atenção em algumas cidades. Pra usuário que quer máxima autonomia e bateria removível pela praticidade do dia-a-dia, é uma escolha forte.",
       imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_920387-MLA99928847403_112025-F.webp",
       mercadoLivreUrl: "https://meli.la/2tygRQG",
       pros: [
@@ -146,7 +146,7 @@ export const bicicletasEletricasList: ProductList = {
       name: "Nado K3 750W Aro 20",
       tagline: "Mid-premium estilo scooter com 750W e bateria 48V",
       description:
-        "A Nado K3 é uma alternativa entre BEMMY 500W e o BEMMY 1000W — motor 750W, bateria 48V de íon-lítio, aro 20\". Estilo similar à fat tire premium (assento confortável, guidão alto, design de moto), mas em uma faixa de preço mais acessível. Pra quem quer a estética e o conforto da categoria fat tire sem precisar dos 1000W ou pagar o preço premium, é uma escolha justa. Não tenho specs exatas de velocidade máxima e autonomia (varia por configuração de bateria), mas a faixa típica é 35-45 km/h e 30-50km de autonomia. Disponível apenas no Mercado Livre.",
+        "A Nado K3 é uma alternativa entre Bemmy 500W e o Bemmy 1000W — motor 750W, bateria 48V de íon-lítio, aro 20\". Estilo similar à fat tire premium (assento confortável, guidão alto, design de moto), mas em uma faixa de preço mais acessível. Pra quem quer a estética e o conforto da categoria fat tire sem precisar dos 1000W ou pagar o preço premium, é uma escolha justa. Não tenho specs exatas de velocidade máxima e autonomia (varia por configuração de bateria), mas a faixa típica é 35-45 km/h e 30-50km de autonomia. Disponível apenas no Mercado Livre.",
       imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_637279-MLB94980462671_102025-F.webp",
       mercadoLivreUrl: "https://meli.la/2NZ1L1z",
       pros: [
@@ -162,10 +162,10 @@ export const bicicletasEletricasList: ProductList = {
     },
     {
       rank: 7,
-      name: "BEMMY 500W Fat Tire",
-      tagline: "Versão entry da BEMMY com pneu largo e visual moto",
+      name: "Bemmy 500W Fat Tire",
+      tagline: "Versão entry da Bemmy com pneu largo e visual moto",
       description:
-        "A BEMMY 500W é a versão de entrada da família fat tire da BEMMY — mesma estética de moto da 1000W mas com motor menor, focado em uso urbano honesto (não pra correr a 50 km/h). Motor 500W, velocidade máxima ~35 km/h, bateria 48V, 7 marchas, pneus 20\"x4\". Aceita 100kg. Custa significativamente menos que a 1000W (cerca de R$ 1.500 a menos), o que torna o visual de moto acessível pra mais gente. Pra quem quer a aparência e o conforto da fat tire BEMMY sem precisar dos 1000W (a maioria das pessoas, na prática), é a melhor escolha do segmento. Mesma observação regulatória: throttle pode requerer atenção em algumas cidades.",
+        "A Bemmy 500W é a versão de entrada da família fat tire da Bemmy — mesma estética de moto da 1000W mas com motor menor, focado em uso urbano honesto (não pra correr a 50 km/h). Motor 500W, velocidade máxima ~35 km/h, bateria 48V, 7 marchas, pneus 20\"x4\". Aceita 100kg. Custa significativamente menos que a 1000W (cerca de R$ 1.500 a menos), o que torna o visual de moto acessível pra mais gente. Pra quem quer a aparência e o conforto da fat tire Bemmy sem precisar dos 1000W (a maioria das pessoas, na prática), é a melhor escolha do segmento. Mesma observação regulatória: throttle pode requerer atenção em algumas cidades.",
       imageUrl: "https://m.media-amazon.com/images/I/71v4iEdY-yL._AC_SL1500_.jpg",
       amazonAsin: "B0GGGH5ZTH",
       pros: [
@@ -222,7 +222,7 @@ export const bicicletasEletricasList: ProductList = {
       name: "Yoo Mobility Y-200 350W",
       tagline: "Entry honesto da Yoo Mobility com 350W dentro da regulamentação",
       description:
-        "A Yoo Mobility Y-200 fecha a lista como ponto de entrada. Motor 350W (exatamente o limite regulatório PAS), modelo 2025/2026 com pintura preto/vermelho. Estilo urbano padrão (não fat tire, não MTB), tamanho convencional. Não tem a portabilidade extrema da Honeywhale B20 nem a potência da BEMMY 500W, mas entrega bicicleta elétrica simples e funcional pra quem está testando a categoria pela primeira vez. Disponível no Mercado Livre. Pra estudante, primeira e-bike, ou trajeto curto casa-trabalho/casa-faculdade, é uma porta de entrada honesta na faixa R$ 2-3k.",
+        "A Yoo Mobility Y-200 fecha a lista como ponto de entrada. Motor 350W (exatamente o limite regulatório PAS), modelo 2025/2026 com pintura preto/vermelho. Estilo urbano padrão (não fat tire, não MTB), tamanho convencional. Não tem a portabilidade extrema da Honeywhale B20 nem a potência da Bemmy 500W, mas entrega bicicleta elétrica simples e funcional pra quem está testando a categoria pela primeira vez. Disponível no Mercado Livre. Pra estudante, primeira e-bike, ou trajeto curto casa-trabalho/casa-faculdade, é uma porta de entrada honesta na faixa R$ 2-3k.",
       imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_899637-MLA99578800896_122025-F.webp",
       mercadoLivreUrl: "https://meli.la/2uKzN4t",
       pros: [
