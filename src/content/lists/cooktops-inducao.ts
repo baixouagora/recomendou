@@ -53,6 +53,7 @@ export const cooktopsInducaoList: ProductList = {
       description:
         "A Brastemp BDJ77BE é referência no segmento premium brasileiro. 4 bocas com vitrocerâmica preta, sistema **Flexizone** que junta automaticamente as duas bocas do lado esquerdo pra acomodar panelas grandes (frigideira retangular, peixeira, panelas de fervura grande) — diferencial real pra quem cozinha em quantidade. Touch capacitivo nos comandos, 9 níveis de potência por boca, timer individual, indicador de calor residual, PowerBoost (a boca atinge potência máxima por alguns minutos pra ferver água rapidamente). Pós-venda em rede nacional via Brastemp (mais ampla que concorrentes). 220V. Para quem reforma cozinha agora e quer o melhor com tranquilidade de marca, é o que recomendamos primeiro.",
       imageUrl: "/placeholder-product.svg",
+      amazonAsin: "B0CLM8LS3W",
       mercadoLivreUrl: "https://www.mercadolivre.com.br/brastemp",
       pros: [
         "Flexizone — junta 2 bocas pra panelas grandes",
@@ -71,7 +72,8 @@ export const cooktopsInducaoList: ProductList = {
       tagline: "Premium com Unicook e 14 níveis de potência precisos",
       description:
         "A Electrolux IE80P é o cooktop premium mais largo da lista (78cm — acomoda 4 panelas grandes sem disputa de espaço) com sistema **Unicook** que detecta automaticamente o tamanho da panela e ajusta o campo magnético — você usa qualquer parte da superfície, e a tecnologia foca o calor onde tem panela. 14 níveis de potência (mais granular que os 9 da Brastemp), **PowerBoost** em todas as bocas, função pausa (interrompe cozimento sem perder ajustes), trava infantil, timer e indicador de calor residual. Vitrocerâmica preta. 220V. Para quem cozinha pratos complexos com várias panelas simultâneas, a área extra e os 14 níveis fazem diferença real.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/P/B082FQCN5W._SX466_.jpg",
+      amazonAsin: "B082FQCN5W",
       mercadoLivreUrl: "https://www.mercadolivre.com.br/electrolux",
       pros: [
         "78cm de largura (acomoda 4 panelas grandes)",
@@ -91,6 +93,7 @@ export const cooktopsInducaoList: ProductList = {
       description:
         "A Tramontina Square Basic 4EI 60 é a opção que mais entrega por preço médio. 4 bocas em 60cm, 2 menores de 1.4kW (Ø180mm) e 2 maiores de 1.8kW (Ø200mm). Touch capacitivo, 9 níveis de potência por boca, indicador de calor residual, trava infantil. Sem flexizone, sem PowerBoost individual, sem unicook — mas pra cozinhar bem todo dia, esses são extras, não essenciais. Vitrocerâmica preta. Marca brasileira veterana (Tramontina) com pós-venda local sólido. 220V. Pra quem reforma a cozinha e quer cooktop por indução de qualidade sem ir nos R$ 4k+ dos premium, é a recomendação mais inteligente — você paga metade do preço, perde features secundários, mantém qualidade essencial.",
       imageUrl: "/placeholder-product.svg",
+      amazonAsin: "B0BH87G279",
       mercadoLivreUrl: "https://www.mercadolivre.com.br/tramontina",
       pros: [
         "Custo-benefício imbatível (R$ 2.5-3.5k pra premium real)",
@@ -109,7 +112,8 @@ export const cooktopsInducaoList: ProductList = {
       tagline: "Robusto e durável com construção nacional reforçada",
       description:
         "A Fischer foca em durabilidade mecânica e simplicidade de uso. 4 bocas com vitrocerâmica reforçada (a marca alega a mais resistente do segmento entre nacionais), comandos touch, níveis de potência ajustáveis, timer e trava de segurança. Não tem os recursos premium da Brastemp ou Electrolux (sem Flexizone, sem Unicook), mas ganha em construção robusta e simplicidade de operação — interface clara, menos botões pra confundir. Marca brasileira focada no segmento profissional/residencial pesado. 220V. Vale pra usuário que prioriza durabilidade física, ou pra cozinha de pousada/casa de família grande onde o cooktop trabalha pesado.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/P/B0DJV2FB64._SX466_.jpg",
+      amazonAsin: "B0DJV2FB64",
       mercadoLivreUrl: "https://www.mercadolivre.com.br/fischer",
       pros: [
         "Vitrocerâmica reforçada (durabilidade superior)",
@@ -129,6 +133,7 @@ export const cooktopsInducaoList: ProductList = {
       description:
         "A Brastemp BDJ60BE é a versão \"funções especiais\" da Brastemp — sem o Flexizone do BDJ77BE, mas com PowerBoost em **todas as 4 bocas** e timer individual. 60cm de largura (vs. 78cm do BDJ77BE — mais compacto). 9 níveis de potência, touch capacitivo, trava infantil, indicador de calor residual. Vitrocerâmica preta. Para quem cozinha pratos simultâneos onde precisa ferver água rápido em várias bocas (sopa + arroz + chá ao mesmo tempo), o PowerBoost em todas é um diferencial. Faltam só as features do BDJ77BE (Flexizone), mas custa cerca de R$ 800-1.500 a menos. Boa pedida pra cozinha apertada que quer Brastemp premium em formato menor.",
       imageUrl: "/placeholder-product.svg",
+      amazonAsin: "B0CLM6TR3V",
       mercadoLivreUrl: "https://www.mercadolivre.com.br/brastemp",
       pros: [
         "PowerBoost em TODAS as 4 bocas (raro)",
@@ -143,14 +148,14 @@ export const cooktopsInducaoList: ProductList = {
     },
     {
       rank: 6,
-      name: "Tramontina Design Slim 4EI 90 5 Bocas",
-      tagline: "Topo da linha Tramontina com 5 bocas e design sofisticado",
+      name: "Tramontina Design Slim Slider Bridge 4EI 90",
+      tagline: "Topo da linha Tramontina com 4 bocas em 90cm e slider de potência",
       description:
-        "A Tramontina Design Collection Slim Slider Bridge 4EI 90 é o cooktop mais sofisticado da Tramontina. **5 bocas** distribuídas em 90cm de largura — espaço pra 5 panelas simultâneas (raro no segmento embutido). Sistema **Slider** (você desliza o dedo pra ajustar potência, em vez de clicar em níveis discretos) que é o que tem de mais avançado em interface de cooktop. Sistema **Bridge** (junta duas bocas pra panelas longas como peixeira) similar ao Flexizone Brastemp. Vidro preto premium, indicador de calor residual avançado, trava infantil, design plano discreto. 220V. Para cozinha planejada premium ou pra quem cozinha em volume (família grande, recebe sempre), a área extra e o design fazem diferença real. Preço alto justifica pra esse perfil.",
+        "A Tramontina Design Collection Slim Slider Bridge 4EI 90 é o cooktop mais sofisticado da Tramontina. **4 bocas distribuídas em 90cm de largura** (não 60cm como o Square Basic) — mais espaço entre bocas, encaixa panelas grandes sem disputa. Sistema **Slider** (você desliza o dedo pra ajustar potência, em vez de clicar em níveis discretos) que é o que tem de mais avançado em interface de cooktop. Sistema **Bridge** (junta duas bocas pra panelas longas como peixeira) similar ao Flexizone Brastemp. Vidro preto premium, indicador de calor residual avançado, trava infantil, design plano discreto. 220V. Para cozinha planejada premium ou pra quem cozinha em volume (família grande, recebe sempre), a área extra e o design fazem diferença real. Preço alto justifica pra esse perfil.",
       imageUrl: "/placeholder-product.svg",
       mercadoLivreUrl: "https://www.mercadolivre.com.br/tramontina",
       pros: [
-        "5 bocas distribuídas em 90cm (mais espaço)",
+        "4 bocas distribuídas em 90cm (mais espaço por boca)",
         "Slider de potência (interface premium)",
         "Sistema Bridge pra panelas longas",
         "Design plano refinado pra cozinhas planejadas",
@@ -181,11 +186,12 @@ export const cooktopsInducaoList: ProductList = {
     },
     {
       rank: 8,
-      name: "Mueller Vitrocerâmico 4 Bocas Indução",
+      name: "Mueller MCI014BG1 4 Bocas Indução",
       tagline: "Entry 4 bocas com design simples e marca brasileira",
       description:
         "A Mueller é a marca brasileira nicho focada em eletroportáteis e eletrodomésticos básicos, e o cooktop por indução 4 bocas dela é a opção entry mais honesta do segmento embutido. 4 bocas vitrocerâmica preta, touch ou knob físico (varia por modelo), níveis de potência, indicador de calor residual, timer. Sem Flexizone, Unicook, PowerBoost — interface básica direta ao ponto. 220V. Pra quem quer entrar no universo de indução sem investir nos R$ 3k+ dos mid-premium, é a porta de entrada brasileira mais acessível. Trade-offs: menos features, menos durabilidade premium, mas funciona honestamente.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/P/B008U2GOSW._SX466_.jpg",
+      amazonAsin: "B008U2GOSW",
       mercadoLivreUrl: "https://www.mercadolivre.com.br/mueller",
       pros: [
         "Entry 4 bocas mais acessível (R$ 1.8-2.5k)",
@@ -204,7 +210,7 @@ export const cooktopsInducaoList: ProductList = {
       tagline: "Portátil de 1 boca pra testar indução sem reformar",
       description:
         "A Tramontina Slim Touch 9471413 (também conhecido como modelo EI 30) é o melhor portátil de 1 boca do mercado brasileiro. Vitrocerâmica preta, Ø22cm de área de aquecimento (acomoda panela grande), touch capacitivo, 9 níveis de potência, timer programável, trava de segurança automática, indicador de calor residual. 220V, ~2000W de potência. **Confirmado disponível na Amazon BR** com bom histórico de avaliações. Vale pra: (a) testar indução antes de comprar 4 bocas, (b) complementar o fogão existente quando precisa de uma boca extra, (c) cozinha de chácara/pousada/aluguel que não pode reformar, (d) cozinha já equipada mas que quer praticidade pra chás/cafés rápidos. Por R$ 500-700, é o jeito mais barato de ter indução em casa.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/P/B07Q1WWWBR._SX466_.jpg",
       amazonAsin: "B07Q1WWWBR",
       mercadoLivreUrl: "https://www.mercadolivre.com.br/tramontina",
       pros: [
