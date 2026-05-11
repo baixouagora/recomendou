@@ -51,7 +51,7 @@ export const cooktopsInducaoList: ProductList = {
       tagline: "Premium nacional com Flexizone e design preto sofisticado",
       description:
         "A Brastemp BDJ77BE é referência no segmento premium brasileiro. 4 bocas com vitrocerâmica preta, sistema **Flexizone** que junta automaticamente as duas bocas do lado esquerdo pra acomodar panelas grandes (frigideira retangular, peixeira, panelas de fervura grande) — diferencial real pra quem cozinha em quantidade. Touch capacitivo nos comandos, 18 níveis de potência por boca, timer individual, indicador de calor residual, PowerBoost (a boca atinge potência máxima por alguns minutos pra ferver água rapidamente). Pós-venda em rede nacional via Brastemp (mais ampla que concorrentes). 220V. Para quem reforma cozinha agora e quer o melhor com tranquilidade de marca, é o que recomendamos primeiro.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/I/41Yla4EUWdL._AC_SL1000_.jpg",
       amazonAsin: "B0CLM8LS3W",
       mercadoLivreUrl: "https://meli.la/1sZf3V5",
       pros: [
@@ -91,7 +91,7 @@ export const cooktopsInducaoList: ProductList = {
       tagline: "Melhor custo-benefício 4 bocas com touch e 9 níveis",
       description:
         "A Tramontina Square Basic 4EI 60 é a opção que mais entrega por preço médio. 4 bocas em 60cm, 2 menores de 1.4kW (Ø180mm) e 2 maiores de 1.8kW (Ø200mm). Touch capacitivo, 9 níveis de potência por boca, indicador de calor residual, trava infantil. Sem flexizone, sem PowerBoost individual, sem unicook — mas pra cozinhar bem todo dia, esses são extras, não essenciais. Vitrocerâmica preta. Marca brasileira veterana (Tramontina) com pós-venda local sólido. 220V. Pra quem reforma a cozinha e quer cooktop por indução de qualidade sem ir nos R$ 4k+ dos premium, é a recomendação mais inteligente — você paga metade do preço, perde features secundários, mantém qualidade essencial.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/I/41tvhlHn40L._AC_SL1000_.jpg",
       amazonAsin: "B0BH87G279",
       mercadoLivreUrl: "https://meli.la/2srwNdd",
       pros: [
@@ -131,7 +131,7 @@ export const cooktopsInducaoList: ProductList = {
       tagline: "Premium Brastemp com timer e PowerBoost em todas as bocas",
       description:
         "A Brastemp BDJ60BE é a versão \"funções especiais\" da Brastemp — sem o Flexizone do BDJ77BE, mas com PowerBoost em **todas as 4 bocas** e timer individual. 60cm de largura (vs. 78cm do BDJ77BE — mais compacto, encaixa em gabinetes padrão). 9 níveis de potência, touch capacitivo, trava infantil, indicador de calor residual. Vitrocerâmica preta. Para quem cozinha pratos simultâneos onde precisa ferver água rápido em várias bocas (sopa + arroz + chá ao mesmo tempo), o PowerBoost em todas é um diferencial. Faltam só as features do BDJ77BE (Flexizone), mas custa cerca de R$ 800-1.500 a menos. Boa pedida pra cozinha apertada que quer Brastemp premium em formato menor.",
-      imageUrl: "/placeholder-product.svg",
+      imageUrl: "https://m.media-amazon.com/images/I/418gPvyBMiL._AC_SL1000_.jpg",
       amazonAsin: "B0CLM6TR3V",
       mercadoLivreUrl: "https://meli.la/1k2uwmi",
       pros: [
