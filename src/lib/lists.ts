@@ -2,6 +2,7 @@ import { dronesList } from "@/content/lists/drones";
 import { patinetesEletricosList } from "@/content/lists/patinetes-eletricos";
 import { bicicletasEletricasList } from "@/content/lists/bicicletas-eletricas";
 import { cooktopsInducaoList } from "@/content/lists/cooktops-inducao";
+import { lavaLoucasList } from "@/content/lists/lava-loucas";
 import type { ProductList } from "@/lib/types";
 
 export const allLists: ProductList[] = [
@@ -9,6 +10,7 @@ export const allLists: ProductList[] = [
   patinetesEletricosList,
   bicicletasEletricasList,
   cooktopsInducaoList,
+  lavaLoucasList,
 ];
 
 export function getListBySlug(slug: string): ProductList | undefined {
