@@ -15,12 +15,18 @@ export function SiteHeader() {
             className="h-7 w-auto"
           />
         </Link>
-        <nav className="text-sm">
+        <nav className="flex items-center gap-6 text-sm">
           <Link
             href="/"
             className="text-muted transition-colors hover:text-foreground"
           >
             Listas
+          </Link>
+          <Link
+            href="/sobre"
+            className="text-muted transition-colors hover:text-foreground"
+          >
+            Sobre
           </Link>
         </nav>
       </div>

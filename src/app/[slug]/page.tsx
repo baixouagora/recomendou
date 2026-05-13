@@ -146,11 +146,6 @@ export default async function ListPage(props: PageProps<"/[slug]">) {
           </section>
         )}
 
-        <p className="mt-16 rounded-2xl bg-surface p-6 text-xs leading-6 text-muted">
-          Divulgação: como participantes do programa de associados Amazon e
-          afiliados Mercado Livre, recebemos comissão por compras qualificadas
-          feitas através dos links acima — sem custo extra pra você.
-        </p>
       </article>
     </div>
   );
