@@ -9,6 +9,7 @@ export type Product = {
   mercadoLivreUrl?: string;
   specs?: Record<string, string>;
   badge?: string;
+  idealFor?: string;
   pros: string[];
   cons: string[];
   rating?: number;
@@ -27,5 +28,6 @@ export type ProductList = {
   publishedAt: string;
   updatedAt: string;
   products: Product[];
+  author?: { name: string; role: string };
   faq?: { question: string; answer: string }[];
 };

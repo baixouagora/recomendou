@@ -50,6 +50,13 @@ export function ProductCard({ product }: { product: Product }) {
             )}
           </header>
 
+          {product.idealFor && (
+            <p className="rounded-xl bg-brand-soft/50 px-4 py-2.5 text-sm text-foreground/90">
+              <span className="font-semibold text-brand">Ideal para:</span>{" "}
+              {product.idealFor}
+            </p>
+          )}
+
           <p className="text-base leading-7 text-foreground/85">{product.description}</p>
 
           <div className="grid gap-4 sm:grid-cols-2">

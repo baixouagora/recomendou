@@ -6,7 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { StickyCTA } from "@/components/sticky-cta";
 import { getAllSlugs, getListBySlug } from "@/lib/lists";
 import { buildAmazonUrl } from "@/lib/affiliate";
-import { enrichProducts } from "@/lib/product-extras";
+import { enrichProducts, getAuthor } from "@/lib/product-extras";
 import type { ProductList } from "@/lib/types";
 
 function buildJsonLd(list: ProductList, baseUrl: string) {
@@ -82,6 +82,7 @@ export default async function ListPage(props: PageProps<"/[slug]">) {
   if (!list) notFound();
 
   const updatedAt = dateFormatter.format(new Date(list.updatedAt));
+  const author = getAuthor(list.slug);
   const products = enrichProducts(list.slug, list.products);
   const jsonLd = buildJsonLd(list, "https://recomendou.com.br");
 
@@ -112,6 +113,13 @@ export default async function ListPage(props: PageProps<"/[slug]">) {
           <p className="mt-4 text-base leading-7 text-muted sm:text-lg sm:leading-8">
             {list.metaDescription}
           </p>
+          {author && (
+            <p className="mt-3 text-sm text-muted">
+              Por <span className="font-semibold text-foreground">{author.name}</span>
+              {" · "}
+              {author.role}
+            </p>
+          )}
         </header>
 
         <TableOfContents products={products} />
