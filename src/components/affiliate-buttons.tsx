@@ -1,4 +1,7 @@
+"use client";
+
 import { buildAmazonUrl } from "@/lib/affiliate";
+import { reportConversion } from "@/lib/gtag";
 
 type Props = {
   amazonAsin?: string;
@@ -20,6 +23,7 @@ export function AffiliateButtons({ amazonAsin, amazonUrl, mercadoLivreUrl }: Pro
           target="_blank"
           rel="sponsored noopener noreferrer"
           className={buttonClass}
+          onClick={() => reportConversion("amazon")}
         >
           Ver Preço{" "}<br className="hidden sm:inline" />na Amazon
         </a>
@@ -30,6 +34,7 @@ export function AffiliateButtons({ amazonAsin, amazonUrl, mercadoLivreUrl }: Pro
           target="_blank"
           rel="sponsored noopener noreferrer"
           className={buttonClass}
+          onClick={() => reportConversion("mercadolivre")}
         >
           Ver Preço no{" "}<br className="hidden sm:inline" />Mercado Livre
         </a>
