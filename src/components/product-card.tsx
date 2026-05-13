@@ -10,9 +10,16 @@ export function ProductCard({ product }: { product: Product }) {
     >
       <div className="grid gap-8 md:grid-cols-[260px_1fr]">
         <div className="flex flex-col gap-4">
-          <span className="inline-flex h-9 w-fit items-center rounded-full bg-brand-soft px-4 text-sm font-semibold text-brand">
-            #{product.rank}
-          </span>
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="inline-flex h-9 items-center rounded-full bg-brand-soft px-4 text-sm font-semibold text-brand">
+              #{product.rank}
+            </span>
+            {product.badge && (
+              <span className="inline-flex h-9 items-center rounded-full bg-brand px-4 text-sm font-semibold text-white">
+                {product.badge}
+              </span>
+            )}
+          </div>
           <div className="relative aspect-square overflow-hidden rounded-2xl bg-surface">
             <Image
               src={product.imageUrl}

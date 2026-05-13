@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ProductCard } from "@/components/product-card";
+import { ComparisonTable } from "@/components/comparison-table";
+import { TableOfContents } from "@/components/table-of-contents";
+import { StickyCTA } from "@/components/sticky-cta";
 import { getAllSlugs, getListBySlug } from "@/lib/lists";
 import { buildAmazonUrl } from "@/lib/affiliate";
+import { enrichProducts } from "@/lib/product-extras";
 import type { ProductList } from "@/lib/types";
 
 function buildJsonLd(list: ProductList, baseUrl: string) {
@@ -78,7 +82,15 @@ export default async function ListPage(props: PageProps<"/[slug]">) {
   if (!list) notFound();
 
   const updatedAt = dateFormatter.format(new Date(list.updatedAt));
+  const products = enrichProducts(list.slug, list.products);
   const jsonLd = buildJsonLd(list, "https://recomendou.com.br");
+
+  const stickyProducts = products.map((p) => ({
+    rank: p.rank,
+    name: p.name,
+    amazonHref: buildAmazonUrl({ asin: p.amazonAsin, url: p.amazonUrl }),
+    mercadoLivreUrl: p.mercadoLivreUrl,
+  }));
 
   return (
     <div className="mx-auto w-full max-w-4xl px-6 pt-8 pb-24 sm:pt-10">
@@ -102,11 +114,16 @@ export default async function ListPage(props: PageProps<"/[slug]">) {
           </p>
         </header>
 
+        <TableOfContents products={products} />
+        <ComparisonTable products={products} />
+
         <section className="mt-10 space-y-10">
-          {list.products.map((product) => (
+          {products.map((product) => (
             <ProductCard key={product.rank} product={product} />
           ))}
         </section>
+
+        <StickyCTA products={stickyProducts} />
 
         <section className="mt-20 border-t border-border pt-12">
           <h2 className="text-2xl font-semibold tracking-tight text-foreground">

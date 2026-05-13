@@ -7,6 +7,8 @@ export type Product = {
   amazonAsin?: string;
   amazonUrl?: string;
   mercadoLivreUrl?: string;
+  specs?: Record<string, string>;
+  badge?: string;
   pros: string[];
   cons: string[];
   rating?: number;
