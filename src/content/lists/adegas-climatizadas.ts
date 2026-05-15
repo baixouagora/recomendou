@@ -3,7 +3,6 @@ import type { ProductList } from "@/lib/types";
 // Imagens Amazon: hot-link via m.media-amazon.com/images/I/{HASH}
 // Links Mercado Livre: shortlinks afiliados meli.la/XXXX
 // Links Amazon: tag recomendou01-20 injetada automaticamente via buildAmazonUrl
-// TODO: #3 Midea 24 Inverter Bivolt — falta ASIN Amazon (user vai passar)
 
 export const adegasClimatizadasList: ProductList = {
   slug: "melhores-adegas-climatizadas",
@@ -120,6 +119,7 @@ export const adegasClimatizadasList: ProductList = {
       description:
         "A Midea 24 Garrafas Inverter Bivolt é o ponto-doce entre tecnologia e preço. Traz a **tecnologia Inverter** (compressor de velocidade variável — economia ~30% de energia, menos vibração, temperatura mais estável) numa capacidade de 24 garrafas, mais acessível que a Liva 34. **Flexi Volt (bivolt)** funciona em 110V e 220V automaticamente — flexibilidade total de instalação. Porta de vidro duplo com tecnologia Low-E (reduz raios UV, preserva o vinho), painel touch com ajuste preciso de 5°C a 18°C, prateleiras cromadas removíveis, gás refrigerante ecológico (R600a, livre de CFC). Pra quem quer o melhor da tecnologia inverter mas tem coleção de tamanho médio (não precisa de 34 garrafas), é a escolha mais inteligente em custo-benefício.",
       imageUrl: "https://m.media-amazon.com/images/I/51wLK2FadjL._AC_SL1000_.jpg",
+      amazonAsin: "B0FJZD7X77",
       mercadoLivreUrl: "https://meli.la/1rX9beQ",
       specs: {
         Capacidade: "24 garrafas",
@@ -137,7 +137,7 @@ export const adegasClimatizadasList: ProductList = {
       ],
       cons: [
         "Sem Wi-Fi (vai pra Liva 34 se quiser app)",
-        "Link Amazon pendente — disponível por enquanto via Mercado Livre",
+        "Sem dual zone (zona única)",
       ],
     },
     {
