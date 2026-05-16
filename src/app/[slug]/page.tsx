@@ -9,13 +9,26 @@ import { buildAmazonUrl } from "@/lib/affiliate";
 import { enrichProducts, getAuthor } from "@/lib/product-extras";
 import type { ProductList } from "@/lib/types";
 
-function buildJsonLd(list: ProductList, baseUrl: string) {
+function buildJsonLd(
+  list: ProductList,
+  baseUrl: string,
+  author?: ProductList["author"],
+) {
   const itemList = {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: list.title,
     description: list.metaDescription,
     numberOfItems: list.products.length,
+    ...(author && {
+      author: {
+        "@type": "Person",
+        name: author.name,
+        jobTitle: author.role,
+      },
+    }),
+    datePublished: list.publishedAt,
+    dateModified: list.updatedAt,
     itemListElement: list.products.map((p) => ({
       "@type": "ListItem",
       position: p.rank,
@@ -84,7 +97,7 @@ export default async function ListPage(props: PageProps<"/[slug]">) {
   const updatedAt = dateFormatter.format(new Date(list.updatedAt));
   const author = getAuthor(list.slug);
   const products = enrichProducts(list.slug, list.products);
-  const jsonLd = buildJsonLd(list, "https://recomendou.com.br");
+  const jsonLd = buildJsonLd(list, "https://recomendou.com.br", author);
 
   const stickyProducts = products.map((p) => ({
     rank: p.rank,

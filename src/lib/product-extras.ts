@@ -232,6 +232,7 @@ const authors: Record<string, ProductList["author"]> = {
   "melhores-bicicletas-eletricas": { name: "Bruno Mattos", role: "Especialista em mobilidade urbana" },
   "melhores-cooktops-inducao": { name: "Camila Rocha", role: "Especialista em eletrodomésticos" },
   "melhores-lava-loucas": { name: "Camila Rocha", role: "Especialista em eletrodomésticos" },
+  "melhores-adegas-climatizadas": { name: "Rafael Tonon", role: "Especialista em vinhos e refrigeração" },
 };
 
 export function enrichProducts(slug: string, products: Product[]): Product[] {
