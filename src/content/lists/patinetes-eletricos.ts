@@ -2,7 +2,7 @@ import type { ProductList } from "@/lib/types";
 
 // Imagens Amazon: hot-link via m.media-amazon.com/images/I/{HASH}
 // Imagens Mercado Livre: hot-link via http2.mlstatic.com
-// Links Mercado Livre: shortlinks afiliados meli.la/XXXX (gerados em mercadolivre.com.br/afiliados)
+// Links Mercado Livre: links de afiliado "social" (mercadolivre.com.br/social/...?ref=...)
 // Links Amazon: tag recomendou01-20 injetada automaticamente via buildAmazonUrl
 
 export const patinetesEletricosList: ProductList = {
@@ -72,7 +72,8 @@ export const patinetesEletricosList: ProductList = {
       description:
         "O IX3 da Xroymexroy é a opção mais robusta da lista pra quem quer conforto de scooter convencional com a economia de um patinete elétrico. Motor de 800W (o mais potente da lista) chega a 40 km/h, e o banco integrado torna trajetos longos viáveis sem cansar as pernas. Pesa mais que um patinete típico — não é pra ficar dobrando e desdobrando no metrô — mas pra usuários que vão pegar a mesma rota casa-trabalho 5 dias por semana, é a escolha mais inteligente. Ideal pra quem está migrando de uma moto/scooter convencional, ou pra quem tem mais idade e prefere não pilotar em pé. Suporta usuários adultos sem problema, com chassi mais reforçado que os patinetes em pé.",
       imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_841206-MLA107509924174_032026-F.webp",
-      mercadoLivreUrl: "https://meli.la/1kBpHsD",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BJkNRhk8go1XDIzQxa3gNMimgWAqxk1xz5KXc%2BByxLvKckXCTjZsTtqRzEcs4XPSSceBnZDr0AeZ9ILkP4Q7On8CSyJYvD00YFNH%2F9lwCcpefNbls4gYQ7BppF%2FUMXUDErgNVfKMqYjNPehmhNWd8i6h0%2BZHUJsjcXcmaw%2Bfg1AqH%2BnrcZLeJUwQtAZQhD86O0un3QA%3D",
       pros: [
         "Motor 800W — o mais potente da lista",
         "Velocidade 40 km/h com chassi reforçado",
@@ -110,7 +111,8 @@ export const patinetesEletricosList: ProductList = {
       description:
         "Pra quem quer a velocidade e potência de um T4A sem pagar pelo nome Honeywhale, o W8 é alternativa direta. Motor de 750W chega a 40 km/h em modo esporte, autonomia varia conforme bateria, e a estrutura padrão de patinete dobrável pra adulto suporta uso urbano intenso. É um daqueles produtos de fabricante chinês que entra no mercado brasileiro via importadores diversos no Mercado Livre — sem marca conhecida no Brasil, mas com specs sólidas. O contraponto: software/app menos polido que Honeywhale, atualizações inexistentes, suporte e peças dependem do vendedor específico. Pra quem é resiliente a esses compromissos e prioriza spec absoluta por preço, vale considerar.",
       imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_865513-MLB109787098489_032026-F.webp",
-      mercadoLivreUrl: "https://meli.la/2NhMazK",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BKFJk1O8qgz7cMKvIPyGingCMbkluHXqDi3Tu2GQt98sCI1Z9Um8V7WpB%2FW2OtQ%2FC70dbRsnnfYFb310o8OSDj%2FW7vUTEQUJfGsOUqbwsV2%2Bf2RFv0BRKGOCmoxXSi1RW%2B7%2FWwE%2B5%2BeJqyx9gYzKCYbroBWb9m4dUTKaBz37Bs1L48iXejKko7lViDKvBiINFfz25W4XXiEqUDMtQg%3D%3D",
       pros: [
         "Motor 750W e velocidade 40 km/h por preço médio",
         "Estrutura dobrável padrão",
@@ -186,7 +188,8 @@ export const patinetesEletricosList: ProductList = {
       description:
         "Esse modelo cobre um nicho importante que falta nos patinetes em pé — o usuário que quer conforto de assento, carregamento universal (bivolt 110V/220V — funciona em qualquer tomada, importante pra Brasil com variações regionais), e suporte até 100 kg. Motor 500W com características padrão pro segmento (~25-30 km/h, autonomia depende da bateria específica). É a opção pra quem está migrando do passeio de bicicleta, ou pra quem tem mais idade e prefere não ficar em pé pilotando. Não é um produto de marca premium, então pós-venda fica dependente do vendedor, mas pra uso urbano casual entrega o necessário pelo preço.",
       imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_763158-MLB93170906432_092025-F.webp",
-      mercadoLivreUrl: "https://meli.la/1zbBcKi",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BLRND%2BEdSX8aR6VPVqaFN0KovELx%2Fq1lBnLG94p%2FeGRC9GFZIPyKlUgqx4sSV4q9R2b5Hn2A4Mydx6lliNL3H4gxF0suYj3lqYiFSql%2FrwBIEU5F%2F22HsH0d6f4hymdDW6fLCKvD%2BCDXAL3OW%2Bf7metdKT%2FHAWTQyVzfCX8Ca2q9XF6AQQCJtmzuQFmrBChockOUiBKLDu4EvQvX5g%3D%3D",
       pros: [
         "Assento integrado pra conforto em uso prolongado",
         "Bivolt 110/220V — funciona em qualquer tomada",
@@ -206,7 +209,8 @@ export const patinetesEletricosList: ProductList = {
       description:
         "O Iscooter W6 é uma opção sólida mid-tier no Mercado Livre. Motor 500W (pico) com velocidade adequada pra uso urbano (25-30 km/h), autonomia de 28 km — superior aos 22 km do Honeywhale M2 Pro — e estrutura padrão de patinete dobrável. A marca Iscooter (linha W) tem distribuição razoável no Brasil via importadores e vendedores oficiais no ML, então o pós-venda é mais previsível que os modelos sem marca. Pra quem quer alternativa à Honeywhale mantendo specs equivalentes — talvez pelo preço, talvez por preferência pessoal — é uma escolha justa. Bateria de íon-lítio padrão, pneus pneumáticos, freio a disco.",
       imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_705439-MLA108179569611_032026-F.webp",
-      mercadoLivreUrl: "https://meli.la/142u9Ey",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/wpgarcia?matt_word=recomendou&matt_tool=10234831&forceInApp=true&ref=BIxJ9h0q%2FWV8wR1DF3poSzqpOJoE4%2FAUiqycRz%2BMD0X%2BEtOqhe%2BUcWXOH0Q5zYznksYOCNZvkk0nI69c40JXBtNSDhkMKPJtqXJLkRZBbx9fyQWZ0uCrCkIvPJZdgPCGHjXRqYHXQoFqPSgD7YLP0RcJu0VchwYVQJk0%2FfuL8F34j64JMQHMAhMG2tHTuyzzEWSQcUg%3D",
       pros: [
         "Autonomia 28 km — boa pra mid-tier",
         "Motor 500W (pico) padrão do segmento",
@@ -225,7 +229,8 @@ export const patinetesEletricosList: ProductList = {
       description:
         "O W3 é o ponto de entrada da lista pra quem quer experimentar patinete elétrico sem investir caro, mas ainda quer algo que não seja brinquedo. Motor 350W (menor que os mid-tier 500W, mas brushless real — é o que diferencia de patinetes infantis), velocidade máxima 30 km/h, estrutura dobrável padrão. A autonomia depende da bateria específica que o vendedor oferece (normalmente 15-25 km). Não tem app, suspensão ou recursos premium — é o básico bem feito. Pra estudante, trajeto casa-escola curto, primeira experiência com patinete elétrico ou complemento de transporte, é a porta de entrada certa por R$ 800-1.200 (faixa típica).",
       imageUrl: "https://http2.mlstatic.com/D_NQ_NP_2X_840764-MLB96760262269_102025-F.webp",
-      mercadoLivreUrl: "https://meli.la/1KZ91ic",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/wpgarcia?matt_word=recomendou&matt_tool=10234831&forceInApp=true&ref=BDPWE2uwimsl46XPOzvlJMRL06%2BiUkli442WQD1hpSxJ3O%2FhP1vrFlWvNJPYVDqfA%2FA1ToRXa2mL8NgdAM5yGHxDpQQAJIvPUOfNvE9zI4lK5hrKrx4r3HGMw3FJpj90so1kJ6sI4KMsPknW0bXwI7MPgX3cp3a0%2B3UOvOkMoZLQqrh6elm7rYjt56GeTHSzt3HzDQmYky%2BtV%2BeP2Q%3D%3D",
       pros: [
         "Motor brushless real (não é patinete infantil)",
         "Preço entry — R$ 800-1.200 faixa típica",
