@@ -54,7 +54,7 @@ export const dronesList: ProductList = {
       imageUrl: "https://m.media-amazon.com/images/I/51YDGGsBOCL._AC_SL1000_.jpg",
       amazonAsin: "B0CJYHBYVK",
       mercadoLivreUrl:
-        "https://www.mercadolivre.com.br/social/eq20260217155414?matt_word=recomendou&matt_tool=52025636&forceInApp=true&ref=BC9PAOLcpD1i9U7VojUwwqC7ps1U%2FD4bg6zAcJk%2Baom8cQq8rY9aIM2h9jeO0AJRdAY2Yh3xJCK0O%2BcSlfn4zzq7KgDx6NBSMtx2Sy2NXzuG%2FT1SXeNizRfuygjua77SYvn%2Fg3PRVm7iYVVexBIwEgCu9S99S4vtWR5H67hMH%2BQxMg2JWVuglO8K41QGuOJbDHbN629endT9o7n%2FQQ%3D%3D",
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BH6WHqLz5G%2BPbEKmTymD6QDkz846ZSq0Tgr6%2F9TNf%2FM4wK79yjPNCfFlJt7nqLppTzxUMgiygQCecWUMWrG2B0QtXM1CjkQdJS4SYwVocOX0Fkf6pZHZGbyXrRc53IYUr095Y2DH1016pHE0%2FhOpO5IYbrDEqLFqN%2F0qWZAdwUpE%2BJLveZLpBBOYnpGtjw45YX1jjayMO9o621R7IQ%3D%3D",
       pros: [
         "Sub-249g — dispensa cadastro ANAC para uso recreativo",
         "Câmera 4K HDR com gimbal mecânico de 3 eixos",
@@ -75,7 +75,7 @@ export const dronesList: ProductList = {
       imageUrl: "https://m.media-amazon.com/images/I/41n9JJ1VUOL._AC_SL1000_.jpg",
       amazonAsin: "B0DRW2PSKW",
       mercadoLivreUrl:
-        "https://www.mercadolivre.com.br/social/eq20260217155414?matt_word=recomendou&matt_tool=52025636&forceInApp=true&ref=BBGBP5LHF%2FMr1CwkUEsznH6UbzWduA5vHsqBsPR43fs%2Bn9nY%2F1uTXH9UWzCheS%2B9%2FNaQfBUjYFjdrbIlbLdyh2TQWyvNsKerFDA9EiBe9Ihw73nFO5nUkh9aHiOxFzs73N7Kk4tdhHPuIZY8RgPZj%2BiTWvvVytrmzfhlDP36bi2%2FE%2BIkl%2B%2B%2Bpo0NtAJVWUdzLXhBU5hYwg45PEw3ww%3D%3D",
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BDpOZFK%2Fl1wCfxgfiuad6ojSSuFODkds4sZ6FSXjXinY209NOeURYk4bRDnQclZL47xMxBJJL7HfrnvK2iHnVL%2FPpoAidM4ZBek%2BVYKjV%2FntBvQ2ZDSIzuvrBiG%2B5s%2Bvi3KKBD7m%2FtoxG8LMHUuzEqPwdVWaBhqeWn3mNIQPEuAnwPtgOswtOn34VhpUB9J4Y%2FAsDCccNDNInF4auw%3D%3D",
       pros: [
         "Sensor 1\" CMOS — qualidade de imagem profissional",
         "Câmera teleobjetiva 70mm dedicada (dual cam)",
@@ -118,7 +118,7 @@ export const dronesList: ProductList = {
       imageUrl: "https://m.media-amazon.com/images/I/5173JqQvQ+L._AC_SL1000_.jpg",
       amazonAsin: "B0DSWMM7ZW",
       mercadoLivreUrl:
-        "https://www.mercadolivre.com.br/social/eq20260217155414?matt_word=recomendou&matt_tool=52025636&forceInApp=true&ref=BB9Q%2FKqV7MKECzPnLUxR6IWUeQRP05KgslpFnpxgD9qGTDVymGMVpOx%2Blfg05ZheQ47OIIwsb3z0RHN83avrC9fVkmmLTiG3k6Ze5QlYbLHiXkmt7OjWbDpJeNGmPAiRI20B%2FIW%2FJPcu380cmiGGmpJNKq%2BYqHvGqCPv4xAElqhnRJqsMa229JJmIcXOVnEkpHmuTvyEz%2BfpqTevQQ%3D%3D",
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BA8Wh8K48z8b7Cq4MOTTrShwfGK7hECcG%2BDaO24xPouQSeWnJnm4116V4zwqRJPcW37v6sfjir6sAZi7PMGffzykHcVriRlJzxPJV8Jaf9LhbrgdZdi%2FUzLEC000RJdEeO3PkEucw%2FzPkEukuMYKpFvDUGZ%2BujG2MrQcEfaoRmu8Mv%2F3EOKUye8IvxLGuyqSmffzSDVgmim%2Bz%2BYnzQ%3D%3D",
       pros: [
         "Sub-249g + protetor de hélice integrado dobrável",
         "Sensor 1/1,3\" com abertura f/1,7 (bom em baixa luz)",
@@ -139,7 +139,7 @@ export const dronesList: ProductList = {
       imageUrl: "https://m.media-amazon.com/images/I/51WaPqwPl4L._AC_SL1000_.jpg",
       amazonAsin: "B0C9MST91Q",
       mercadoLivreUrl:
-        "https://www.mercadolivre.com.br/social/eq20260217155414?matt_word=recomendou&matt_tool=52025636&forceInApp=true&ref=BOLE5gitPhycISg9HRTMqJaYSjGLGKRYsZ8kY2L%2FcdLGk44Kjdw9GTY1NiCakxdpV4FueagXzRZU1sOsUaWFIFlsnRC73sOBUslvDOZVcRWAYOgUBxFYL9RwJrm0n8MqQvTnlF4Av2cn65SVsYaIQLt09HDeuIvQEe4vh%2Fi4l6VsIihUhpOOATI5DpZM4I8X5vlblCNGrmAh18IjVw%3D%3D",
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BNGyuBH2GPyhInNrf%2FIQ1fiafSC5N1sLGzq1EJ5UwPIiNuNFMGJ1bV%2B6uBZ%2B%2BU9YbTnHOtfSGZBg6EyQqg%2BM64WETihoO%2B0iRMmVF9yg6uD71GVRBtleofvdjvaANe3xQu1ELTwWDkB6sE4rEQWlgnRKMJQGAe3O8QkebsjncY%2B3iCUVFkyfRjrZ1DiC2NNRqMz7vE7NhHze4d68cw%3D%3D",
       pros: [
         "Sub-250g + gimbal mecânico 3 eixos + 4K HDR",
         "Autonomia até 51 min com bateria Plus (combo)",
@@ -160,7 +160,7 @@ export const dronesList: ProductList = {
       imageUrl: "https://m.media-amazon.com/images/I/611euk2uBAL._AC_SL1500_.jpg",
       amazonAsin: "B0CS6HVW6P",
       mercadoLivreUrl:
-        "https://www.mercadolivre.com.br/social/eq20260217155414?matt_word=recomendou&matt_tool=52025636&forceInApp=true&ref=BPkRaWaK6yu%2FLieKXhTomvmVn50uDN6ga0ghs08B6SqFrPrg8%2FcgOSRriuPDeKMJ9%2BsAv6pUEdpS1QWsum6GI%2BaBwrHn5X%2BMJWhikqoBqHR%2F69aWZhkZ%2BJgKU1oT4ONyUrFdBCWuukp21zv4r6jeZOXQdQ3gh9wbHX%2BsHf3B8LlCMiCGn3cYbtLkOnSdZgvcDC3wGWU%3D",
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BK18Ngm6lWeq4FPFjSrxMwfgjjbGvicwRWksQKzb7LCZbpZC%2FR1C%2BvWuOso22dLwl2BBXk%2FPUE0zBYvjqfWMsD0x0glqAYjWd2JKJthcXyTBgFwZYL2kDK%2FVQ7lS26Vl8JUnwLymUmt7KKbpGs7aO%2Fz6UHMLoJsu5yNliAdq6xpzXDy2HT8kp2ExqJ9prooED7Rh%2Fw%3D%3D",
       pros: [
         "Experiência FPV imersiva via DJI Goggles 3",
         "Protetor de hélice integrado (FPV bate em coisas)",
@@ -181,7 +181,7 @@ export const dronesList: ProductList = {
       imageUrl: "https://m.media-amazon.com/images/I/51U-7scr1AL._AC_SL1000_.jpg",
       amazonAsin: "B0BTJ5SBRQ",
       mercadoLivreUrl:
-        "https://www.mercadolivre.com.br/social/eq20260217155414?matt_word=recomendou&matt_tool=52025636&forceInApp=true&ref=BFIVCWygiHC6eHVopZ4xhjvju%2FdogaNcGTsHIkmAuLo7Ezeo7JtOhau6zDQ31RPIxmNSk%2BuqjkHtCfWbsWuQGgSsro0ng86y6bNp68ZLA%2FEgQzzJAywbyF4x6fIuegBKtXeA7uqBD5AZPQCxr0KzKfNadbWTl0RYzF%2Bpw5mHKZihbh4y%2Bs2bOa2o3OgTQSZjDT71Q8BrJZU0dN8m0A%3D%3D",
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BOQO70tu7vAS5704f%2FjMyBmVY2FpJfFS0Ykt8VDrD5Y1aE54JLgluWOX0ipzkUV9K%2BRQJ3ydMe%2FOYGTn9%2FL7ZIlLaRXC6LtqJFu0Yhhcl7fAoO2z9hvolQEe%2Fd9Tre36rZIPVVWhAO5LSvqFFkaG8J2Y2aysV0bwSVnMylcRXFwJW47xcB8FdA1dCop2jwmfHAxiCcjWS1KwmmY4pQ%3D%3D",
       pros: [
         "Sensor Hasselblad 4/3 CMOS — o maior do segmento consumer",
         "5.1K/50fps, 4K/60, slow-motion 4K/120",
@@ -203,7 +203,7 @@ export const dronesList: ProductList = {
       imageUrl: "https://m.media-amazon.com/images/I/41SZfEK5AWL._AC_SL1000_.jpg",
       amazonAsin: "B0BW4KRCM1",
       mercadoLivreUrl:
-        "https://www.mercadolivre.com.br/social/eq20260217155414?matt_word=recomendou&matt_tool=52025636&forceInApp=true&ref=BKm8x7VYYv%2BEy2ER1FJTAc65mDX91CxmxgA9tbDMNjB9QqtE2Uj41U88ZDCrEC4sBWb%2BLhviCcHGcJ5KpsrJc3K%2FCbrccV1McvU%2BK%2FOXJI5wdItFFMBBfVRozvZ9e%2BK2jlyDkQIZ3YMY4gEw7MYeODEwE%2FsU9IvlasenQ4u%2FaFK2F%2BZRRsisqZenglWUH%2FFpjzJiPPQ%3D",
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BOyVJc2l33GQs%2BERs%2FoYqHjPB1xEkPNVors8USskYjE1UOIXOmMQNyzYgR%2F1dt20v5NQbtifH74EnfyTqTquy1EI5ls1%2Bj18RPtdFeLXay52jj0uPAl0a7q2vSzXmNr5WdclavEK6xO2yPuA6gBO3fSp8muWQy%2B%2FOndLDXQu%2BcX%2FCehY%2FqIppFd6nXvYCT59KDhxyYs%3D",
       pros: [
         "Sub-249g + gimbal mecânico 3 eixos por R$ 2-3k",
         "Transmissão OcuSync 2.0 (estável e longo alcance pro segmento)",
@@ -224,7 +224,7 @@ export const dronesList: ProductList = {
       imageUrl: "https://m.media-amazon.com/images/I/51OKSw+LPVL._AC_SL1010_.jpg",
       amazonAsin: "B0BCYY1KX3",
       mercadoLivreUrl:
-        "https://www.mercadolivre.com.br/social/eq20260217155414?matt_word=recomendou&matt_tool=52025636&forceInApp=true&ref=BMZWxGgNODX2kv1TV9jDkvTCK9%2BLuai0ygFkruUjOu3QzEs757nOUgmVYXCRkDEF0RvvhFmMZ9E%2B4xUogo15%2BTm8BCIj0K5zT6UrqZ08hEc5CZNwPysF9EyXys8XZMaA15Iz1gQMTsAF%2BijPAwnxYntZ%2F7Fuy2dAfu4xhnlP%2F8ptSgZzB2qjfWdxnSh8BEsM56RbxOY%3D",
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BNhN%2BOIGWufl79%2BAl%2BW4prdcoZFCsZl%2BCPvBzgSeQtUYnNCV2FCmoqIbU%2Fh64Er2EJAchvAlMYbL0NIJzN7bYbo55qzMNfvrVEl7DHjGxaIpWHLqGYkjsMKLgSvNqQyldRIwGv4p7OEu%2BTJzNL%2BJJP%2FPY0juNQ%2B5ksSHsiEE%2BZwLX%2FN09ieiVp5KRMMneQdU%2BbelcM4%3D",
       pros: [
         "GPS + motor brushless + câmeras duplas 4K por R$ 800-1.500",
         "Prevenção de obstáculos (raro nessa faixa)",
@@ -247,7 +247,7 @@ export const dronesList: ProductList = {
       imageUrl: "https://m.media-amazon.com/images/I/51bo0dObnXS._AC_SL1010_.jpg",
       amazonAsin: "B0972RC9VS",
       mercadoLivreUrl:
-        "https://www.mercadolivre.com.br/social/eq20260217155414?matt_word=recomendou&matt_tool=52025636&forceInApp=true&ref=BL18x6joVHa5bFRSWEr%2Bx3R1MuNRast6TfRgFF6drGGzXX1hlOAd4i2N93a1HPiUXRm1yDls0W78QMf7rfzHzjAmlXF3XX%2BCZWY08PLA0VewYktRC%2BmxZZXfOh0YfrC4B70g22UH22iAy7irfoaWjk0qi1doGwNFcwrFmhs%2FZfJbbW%2Br6aHHzfcKr6zwlIe5Y%2BI1Xeo%3D",
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BMSQAOLHE1vtOpk4m4wwK3R245AU3s8qO4OzrtG0JOAr%2FQmmUhW%2FydbAJxVS31yDBKOgHkRu8daJs7UYzFD%2FmWBkTkY5lAcdo6CY7zec7Fl8%2Bk9GGKyE%2FGtTVKHiHfsd9cftBtrkwzo1gQMWfTp83bVKUBwZCe%2BVi71cMwWCNtD%2FtMcDKT9uIdl9iwssTZ9HDqqXmv8%3D",
       pros: [
         "Preço extremamente acessível (R$ 200-400)",
         "Leve, dobrável, fácil de transportar",
