@@ -1,7 +1,7 @@
 import type { ProductList } from "@/lib/types";
 
 // Imagens Amazon: hot-link via m.media-amazon.com/images/I/{HASH}
-// Links Mercado Livre: shortlinks afiliados meli.la/XXXX
+// Links Mercado Livre: links de afiliado "social" (mercadolivre.com.br/social/...?ref=...)
 // Links Amazon: tag recomendou01-20 injetada automaticamente via buildAmazonUrl
 
 export const lavaLoucasList: ProductList = {
@@ -58,7 +58,8 @@ export const lavaLoucasList: ProductList = {
         "A Electrolux LL14X é a lava-louças premium mais vendida do Brasil. **14 serviços** (lava louça de família grande ou jantar com 14 pessoas), **Função Higienizar a 70°C** que elimina 99,99% de bactérias e germes — diferencial real pra famílias com bebês, crianças pequenas ou idosos onde higiene é prioridade. **Auto Sense** identifica nível de sujeira e ajusta automaticamente o ciclo, Programa Express 30 min pra louça pouco suja, display digital com tempo restante, cesto de talheres removível, bandeja superior ajustável, função pré-lavagem, trava infantil. Consome apenas 9.5L por ciclo. 127V. Pra família que quer Electrolux com função higienizar e pós-venda nacional ampla, é a recomendação mais segura.",
       imageUrl: "https://m.media-amazon.com/images/I/41OWfzSMjsL._AC_SL1000_.jpg",
       amazonAsin: "B09BBNL8MV",
-      mercadoLivreUrl: "https://meli.la/29Nsnef",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BKLSUkMivxTEPXBe9Oie4hluSPvokZn2KLVQW1wa1F0uOu88sYPduRQMsFeK3F5wzgpPuDbz92Uv8vXIzyQ7zKsN7Uf1nzgj92FkyQTLWsns%2FpKxwlikfOkPt%2FwIZnM0OwPKhD1QMkDRGOtS9%2BayI6dD4VIrLgEMm%2FJ8Vo6JWW%2B2On5m3h1O2UTYP5FMPXDLOvhRKX4%3D",
       pros: [
         "Função Higienizar 70°C — elimina 99,9% bactérias",
         "Auto Sense + 7 programas (Express, Eco, Pesado, etc.)",
@@ -78,7 +79,8 @@ export const lavaLoucasList: ProductList = {
         "A Electrolux LS14E é a lava-louças mais inovadora da lista — ela é a **única do mercado brasileiro com programa Lava e Seca de apenas 50 minutos**, contra os típicos 90-180 minutos da concorrência. Ideal pra louça pouco a moderadamente suja do dia a dia (almoço/jantar normal) — você jantou às 20h, programa às 20h05, louça limpa E seca às 21h. Combina lavagem rápida + secagem por temperatura num único ciclo. Também tem **Função Higienizar a 70°C** (mata 99,9% bactérias), economiza até 91% de água por ciclo e até 54% energia no modo Eco, Delay Start até 24h (programa pra lavar de madrugada), 14 serviços. 220V. Pra quem prioriza tempo (família corrida que precisa louça rápida pra próxima refeição), é game-changer.",
       imageUrl: "https://m.media-amazon.com/images/I/41+T6Xe5XKL._AC_SL1000_.jpg",
       amazonAsin: "B0FLQJJ47J",
-      mercadoLivreUrl: "https://meli.la/2Vq4Raw",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BFHpy%2BI%2B2PySy8L63De0CW6eTp3zfdN7FoawW9dWQAWGMzrGzLvTN3w4Gi7QmM1RbR8zNgtgMdnNuzw1LAtPSZLnP56g7k6eypk1HgOfHEHcFbiMjiSe2AIDr2pJuqyb62CGcUJ6ZVFGyI%2BgGUfvQAHpBjT2ADTvuMOwNLJowX7t6sEnuHMR3ULNRKN7ZYnQ2j%2BUtx8%3D",
       pros: [
         "Lava E Seca em 50 min (única no mercado)",
         "Função Higienizar 70°C + economia até 91% de água",
@@ -98,7 +100,8 @@ export const lavaLoucasList: ProductList = {
         "A Midea Smart Home MDWEF1433GSS1 traz tecnologia que ainda é raridade na categoria. **Conectividade Smart Home via Wi-Fi** — você controla pelo app, recebe notificação quando termina, programa remotamente do escritório. **Ion Dishfresh** elimina mais de 99,9% das bactérias deixando louça desinfetada e sem cheiro. Sistema **Open Dry** abre a porta automaticamente após a lavagem pra secagem otimizada (evita que louça fique úmida no fechado). **9 programas de lavagem** cobrindo do pesado ao delicado. 14 serviços, 127V, inox. Pra quem valoriza tech (controle remoto, monitoramento via celular) sem ir nos R$ 7-9k de uma Bosch Série 8, é o equilíbrio premium-tech mais inteligente.",
       imageUrl: "https://m.media-amazon.com/images/I/41ojUwgYwoL._AC_SL1000_.jpg",
       amazonAsin: "B0DXS4WX1M",
-      mercadoLivreUrl: "https://meli.la/22CYg7p",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BJgcHwtizCvj%2BVZ8OoQtgxlpQmi6ZLIVx20SoxhuVRnB5fiiPVZcADgIW0E2PLyuJ6WJX70WL1RZpDqb%2FWnOHnqD%2BCdPCta2%2FOSvkBDknBW3mykofVBna7oStvpIc%2BK797WugQxGyZsvD7Q9c4A7Qd2PD%2B4hl2QXr6hxnJWNBZ8k2IxUl3%2B4ad0GB9DPCQDPX27B%2BBw%3D",
       pros: [
         "Wi-Fi Smart Home (controla pelo celular)",
         "Open Dry (porta abre sozinha pra secagem)",
@@ -118,7 +121,8 @@ export const lavaLoucasList: ProductList = {
         "A Electrolux LL14P Experience é a opção em **acabamento preto** da linha 14 serviços. Mantém a função Higienizar 70°C, Auto Sense e demais features da LL14X, mas com painel e frente em preto — encaixa em cozinhas com design contemporâneo (cozinha planejada preta, marrom escuro, antracite) onde inox quebra o visual. Mesma capacidade de 14 serviços, 7 programas de lavagem, 9.5L de água por ciclo. Pra cozinha planejada onde o design importa tanto quanto a performance, é a escolha estética premium da Electrolux.",
       imageUrl: "https://m.media-amazon.com/images/I/41Sy0gJZ4kL._AC_SL1000_.jpg",
       amazonAsin: "B0D1VT67HQ",
-      mercadoLivreUrl: "https://meli.la/1UwbqXU",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BMFNEBDu3DAR1u0Q2lrVnN9Pq6WJq%2FYJlhsHcua3FfznwqsUe9YeWMgJV%2BwamkJnbBbhIUC%2B%2FqmKv29%2FCxk4mrWMSgf0bu3kazqBScwV4aZznxC11FJMV5P%2FSbyXtmjtblM22i%2B%2FbeV5LWhHN6A8BGQAXcBOA%2BB9iKBNOVx0N%2FaMk53XJLv%2BwjS89Njxji4BbXMMc4A%3D",
       pros: [
         "Acabamento preto premium pra cozinha moderna",
         "Mesma função Higienizar 70°C da LL14X",
@@ -138,7 +142,8 @@ export const lavaLoucasList: ProductList = {
         "A Midea 14 Serviços Preta é a opção da Midea em acabamento preto pra cozinhas que combinam tons escuros. Programa Eco pra economia, programa Intensivo pra panelas e louça com sujeira mais pesada, programa Quick pra louça pouco suja em ciclo rápido, **programa Glass** com cuidado especial pra copos e taças, programa Delay Start (programa início em 2, 4, 6 ou 8 horas), trava infantil. Capacidade pra 14 pessoas (xícaras, copos, pratos sobremesa, jantar, sopa, talheres completos). 127V. Comparada à Electrolux LL14P (também preta, item #4), tem menos features premium mas vem com preço mais competitivo — vale pra quem quer estética preta sem ir no premium Electrolux.",
       imageUrl: "https://m.media-amazon.com/images/I/51MV8w-DQmS._AC_SL1500_.jpg",
       amazonAsin: "B093XZ9TLW",
-      mercadoLivreUrl: "https://meli.la/2bUivB8",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BKXXcb6uKFMaBke0mctKbylW88m%2FJJG043h768arjRKOAA5dEjIsdWVx6kjQlsPvSyoiuEbQidT21WjEuQ4QEEO2x%2BvtF1Ee5DbAtPP%2BLTBJGHuZaprOoQjVLqwRKadJrlEa3qgAugEbxM89m2Yl4aeYAr4eA8DW43hSdK1DqWO%2Fbg7x7uAc49EUlEtDK7qcocpcwQ%3D%3D",
       pros: [
         "Acabamento preto por preço mid",
         "5 programas incluindo Glass (cuidado com taças)",
@@ -158,7 +163,8 @@ export const lavaLoucasList: ProductList = {
         "A Brastemp BLF10BR é uma das **mais bem avaliadas do mercado brasileiro** (4.8/5 estrelas com centenas de reviews na Amazon). **10 serviços** — o ponto-doce de capacidade pra família 2-3 pessoas que não precisa de 14 mas quer mais que compacta 8. Função **Smart Sensor** que identifica sujeira automaticamente, **Half Load** (lava meia carga sem desperdiçar água/energia — útil pra dia a dia), **Acqua Spray** pra economia, **Delay Start** pra programar, **Ciclo Pesado** pra panela queimada, cesto exclusivo de talheres. Acabamento inox, design sofisticado, cabe em cozinha compacta ou padrão. 220V. Marca Brastemp com pós-venda nacional Whirlpool. Pra quem está reformando cozinha de apartamento padrão e quer Brastemp com a capacidade certa (não exagerada), é a escolha mais inteligente.",
       imageUrl: "https://m.media-amazon.com/images/I/41RW4rc4apL._AC_SL1000_.jpg",
       amazonAsin: "B087ZPRRWD",
-      mercadoLivreUrl: "https://meli.la/2f7pFwY",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BPzRIzEFFD65olK87tylEJbYGPSgIgA3yqa8BAcdSGhgYcxig3UjLo7I0Vchj%2B3Aye9ZHJakOXAFh2kwrkX8KYqzaOSxpBxjLSK2TOzrhiE71eM0DUyJkt4wlr76AIwr2OYpq9jcTnWJxUCufJbYrOXEdmeyG0UW0cfX%2BQYdZPVwCZH4GKDpZSGJuMdRYWzAJXLzY8M%3D",
       pros: [
         "10 serviços — ponto-doce pra família média",
         "Smart Sensor + Half Load (economia em meia carga)",
@@ -178,7 +184,8 @@ export const lavaLoucasList: ProductList = {
         "A Electrolux LL08S é a melhor compacta premium do mercado. **8 serviços** (lava louça de casal ou apartamento pequeno), **Função Higienizar a 70°C** (mesma tecnologia da LL14X, em formato menor — raro nessa faixa), 7 programas (Acquajet, Quick, Delicate, Eco, Daily, Turbo, Sanitize), acabamento inox. Tamanho compacto cabe em cozinhas pequenas (~45cm de largura) ou em cima de bancada de mesa. 127V. Pra apartamento, casal sem filhos, ou complemento a cozinha já existente, é a porta de entrada premium na categoria — Electrolux + 8 serviços + função higienizar por preço acessível (R$ 1.800-2.500).",
       imageUrl: "https://m.media-amazon.com/images/I/41nJML+uGVL._AC_SL1000_.jpg",
       amazonAsin: "B084Q157JX",
-      mercadoLivreUrl: "https://meli.la/1tmB1Eh",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BI4FUfxPITEYEZOqixLdna0x9WuxdWQAUk0T9mBAEj11jRlaCnMyJvNPEKMcpSEN9PGLR0%2BRG2vML7i49tcTmYUGE5985olh6ajOkuTaS6kOF2O3dT%2Flyy7H7pTcF2okTuKkwl%2FcHuZYpFvO2b22ACBS658LZUk0V1GGsrOKod8lHCN9sA4gN8gTNdnfyIquQp3aYx8%3D",
       pros: [
         "Função Higienizar 70°C em formato compacto",
         "8 serviços = perfeito pra casal",
@@ -198,7 +205,8 @@ export const lavaLoucasList: ProductList = {
         "A Brastemp BLF08 é a opção 8 serviços da Brastemp — compacta sem perder a qualidade construtiva nacional. **8 serviços**, função **Acqua Spray** (jato de água que economiza), design moderno, prateleiras ajustáveis pra talheres e pratos. Mais compacta que o BLF10BR (cabe em cozinha pequena ou em cima de bancada), fácil instalação. Faixa de preço R$ 1.800-2.500. Comparada com a Electrolux LL08S (item #7), tem o trade-off de não ter Função Higienizar, mas vem com a tranquilidade da marca Brastemp e a função Acqua Spray. Pra apartamento ou casal que prefere marca brasileira veterana, é a alternativa Brastemp equivalente.",
       imageUrl: "https://m.media-amazon.com/images/I/41yb7JiKeVL._AC_SL1000_.jpg",
       amazonAsin: "B0BTFM3PW9",
-      mercadoLivreUrl: "https://meli.la/1TMwwEn",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BP%2FIxAa%2BIHtHc7QjgodJP%2BIOSocPCIzdACUKq70EaHE86mXc7n3uC6o7Ylk20w%2Fmw%2B1OoMgSgKkL7%2Bk46Zi9d0k0GewKJLACu1jfVXh5nxvibkHfAsU0sHykyWEsemjheR7Ub3rSHJvIZZJgIB%2BzrqjcwEy76Pd%2FyUo6Jv0DdSC2CfXy0svjTBik%2BJpX8XENPPauau4%3D",
       pros: [
         "Marca Brastemp (Whirlpool) com pós-venda nacional",
         "8 serviços compacta + Acqua Spray",
