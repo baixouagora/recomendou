@@ -1,7 +1,7 @@
 import type { ProductList } from "@/lib/types";
 
 // Imagens Amazon: hot-link via m.media-amazon.com/images/I/{HASH}
-// Links Mercado Livre: shortlinks afiliados meli.la/XXXX
+// Links Mercado Livre: links de afiliado "social" (mercadolivre.com.br/social/...?ref=...)
 // Links Amazon: tag recomendou01-20 injetada automaticamente via buildAmazonUrl
 
 export const adegasClimatizadasList: ProductList = {
@@ -60,7 +60,8 @@ export const adegasClimatizadasList: ProductList = {
         "A Midea Liva 34 Garrafas Inverter Smart é o que tem de mais moderno na categoria no Brasil em 2026. **Tecnologia Inverter** (compressor de velocidade variável) reduz consumo de energia em ~30% e minimiza vibração — protege o sedimento do vinho de longo prazo. **Conectividade Smarthome** via Wi-Fi: controle a temperatura pelo app de qualquer lugar, recebe alerta se a temperatura variar (essencial pra coleção valiosa), monitora consumo. Vidro duplo transparente com proteção UV, iluminação LED branca, painel touch com trava, **bivolt** (110V ou 220V sem chave). Aceita 34 garrafas em prateleiras de madeira. Pra entusiasta que está construindo coleção e quer monitoramento profissional, é a escolha mais inteligente — paga premium pela inverter + Wi-Fi, mas se traduz em proteção real do vinho que você está investindo.",
       imageUrl: "https://m.media-amazon.com/images/I/51t88E5qU+L._AC_SL1000_.jpg",
       amazonAsin: "B0FK19FT3X",
-      mercadoLivreUrl: "https://meli.la/1zc369U",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BAe5KQCtDlHdyUpiGVt97nAZPPFATF%2BD9b0VShCqhpf0dg1xVXEw4U78YOK5KHci6KNIpGrQmx1bpsMi2q9mbgx6Dvd2hiBS9%2F4WfAQYgBQMmBKtgjIFFAYEL3cy6U2W7kD7bj%2BfRVpm0qv89YHMaUQjPvDnA0PRaTiJUdc6IXYDScYYHYIfe4G1bzBim602zM%2FWjMw%3D",
       specs: {
         Capacidade: "34 garrafas",
         Sistema: "Compressor Inverter",
@@ -90,7 +91,8 @@ export const adegasClimatizadasList: ProductList = {
         "A Brastemp BZB33BE é a melhor dual zone do mercado brasileiro. **Duas zonas com termostatos independentes** — você guarda tintos a 14-18°C na zona superior, brancos e espumantes a 6-12°C na zona inferior, tudo na mesma adega. Compressor robusto (não termoelétrica, então funciona bem em clima quente). 33 garrafas em 5 prateleiras de madeira, painel touch externo, iluminação LED interna, vidro duplo com proteção UV. Acabamento inox. Marca Brastemp com pós-venda em rede nacional — diferencial sério vs. concorrentes importados que ficam dependendo de assistência regional. **220V**. Pra quem bebe tipos diferentes de vinho regularmente, ter dual zone elimina o compromisso de servir branco a 16°C (quente demais) ou tinto a 8°C (frio demais).",
       imageUrl: "https://m.media-amazon.com/images/I/51+FeZYtWnL._AC_SL1000_.jpg",
       amazonAsin: "B079ZCTCQ3",
-      mercadoLivreUrl: "https://meli.la/1gppDvU",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BNHW%2FPYD602SjayuUJfq1YsN237Mx1glNUQ8xTRKjzgnI5PAxbHHbvHXQawT9LsMFiHX9EYwcMpNvoA5uinjBL3cJfbKzntUJL1NfkzlMDlkdxxgntZY46SgmaGpFzMVejBPWtZOrz2NTI1Ti0FXCtcY2FDoyfsQ2NiEaT5uzV85zPIwvy8s9vQy2fcVzm%2F5rt4hZWk%3D",
       specs: {
         Capacidade: "33 garrafas",
         Sistema: "Compressor",
@@ -120,7 +122,8 @@ export const adegasClimatizadasList: ProductList = {
         "A Midea 24 Garrafas Inverter Bivolt é o ponto-doce entre tecnologia e preço. Traz a **tecnologia Inverter** (compressor de velocidade variável — economia ~30% de energia, menos vibração, temperatura mais estável) numa capacidade de 24 garrafas, mais acessível que a Liva 34. **Flexi Volt (bivolt)** funciona em 110V e 220V automaticamente — flexibilidade total de instalação. Porta de vidro duplo com tecnologia Low-E (reduz raios UV, preserva o vinho), painel touch com ajuste preciso de 5°C a 18°C, prateleiras cromadas removíveis, gás refrigerante ecológico (R600a, livre de CFC). Pra quem quer o melhor da tecnologia inverter mas tem coleção de tamanho médio (não precisa de 34 garrafas), é a escolha mais inteligente em custo-benefício.",
       imageUrl: "https://m.media-amazon.com/images/I/51wLK2FadjL._AC_SL1000_.jpg",
       amazonAsin: "B0FJZD7X77",
-      mercadoLivreUrl: "https://meli.la/1rX9beQ",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BKdXikprtgbY2DDUM58A8QwtiXND3gK8CxvRS849W3kpak4VlnQI9FpuvZSAKc4%2FAV%2Fd84k2JuetxvK6V%2FsRqwiMuDyaZhB8z6HTG3stJihJFq2HyLNIU0g%2FOtxylle8HbIcQeg8nYw8O5viwbTxsWQv9i5TH2gjJgg8XdNPZEUffRbJpZS3p2Uqw9bH2nx%2BbCgpk7U%3D",
       specs: {
         Capacidade: "24 garrafas",
         Sistema: "Compressor Inverter",
@@ -150,7 +153,8 @@ export const adegasClimatizadasList: ProductList = {
         "A EOS EAC24G da linha Sommelier é a opção compressor mid-premium mais bem avaliada no Brasil. **24 garrafas** (boa capacidade pra entusiasta que não está em coleção massiva), refrigeração por compressor com **gás ecológico** que reduz consumo de energia, vidro duplo (full glass) com proteção UV, prateleiras cromadas pra vinho, **painel touch externo** com controle eletrônico de temperatura (5°C a 18°C). Iluminação LED interna. 220V. Diferencial: compressor garante refrigeração estável independente do clima — ideal pra RJ, NE, MT/MS, ou onde o verão passa de 35°C. Marca EOS é especialista em adegas (não diversificada como Brastemp) — tem foco na categoria.",
       imageUrl: "https://m.media-amazon.com/images/I/51Nol3US7AL._AC_SL1000_.jpg",
       amazonAsin: "B0BZGXQ5J6",
-      mercadoLivreUrl: "https://meli.la/2JPjWwB",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BIeIkuP1BxQbATH1YlLN2PSONr8VZTucbZTd9HDkcH0updBFRtfWunU0%2Foc8gsEwN0eW29%2BtOfvaaFsj%2FnQD8J3uU3IFISuMSJC3ZiO911vopicx6avhj3qSfUjUXvAmC5aSnsq1Hk8o53NMazBwTNI7l2RMd3nsSu5SQfJLBJ0lMHf%2Bmie6pmuiBgolL6kkv6fpb7o%3D",
       specs: {
         Capacidade: "24 garrafas",
         Sistema: "Compressor (gás ecológico)",
@@ -179,7 +183,8 @@ export const adegasClimatizadasList: ProductList = {
         "A Electrolux WSF24 entrega 24 garrafas com a tranquilidade de pós-venda Electrolux em rede nacional. Estabilidade de temperatura entre 5°C e 18°C com ajuste em um toque no **painel digital externo** (controla sem abrir a porta), uma porta com vidro duplo, iluminação LED interna, prateleiras adequadas pra vinho. Design sóbrio que combina com qualquer ambiente. Pra quem prioriza marca consolidada com assistência técnica ampla (vs. marcas especializadas menores como EOS ou Easy Cooler) e quer 24 garrafas, é a escolha mais segura — você troca um pouco de spec de nicho pela previsibilidade Electrolux.",
       imageUrl: "https://m.media-amazon.com/images/I/41crQ-JzvvL._AC_SL1000_.jpg",
       amazonAsin: "B0B3245498",
-      mercadoLivreUrl: "https://meli.la/1BKixss",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BEqNYqpzRa0oP0ftmKOQqvyWsJg%2B5mJ3adWxKx52%2F0lIpsAzb%2FFqyl%2Byg3BxK%2FI4kgUcmWNl73fD4%2FbFEgp1TvXt4Qh6whQAVGfc5onmWt%2Bh0tyk9RkpVJZt9e0YUrjuAu8yGN3DcDzqXiCsfEc8b4yhb%2BMjCZtP1xlIphpzM17YMFNIfrqQQXX2wDhJuWuunMllp34%3D",
       specs: {
         Capacidade: "24 garrafas",
         Zonas: "Zona única",
@@ -208,7 +213,8 @@ export const adegasClimatizadasList: ProductList = {
         "A Suggar Lyon AD1522IX resolve um nicho específico: **compressor em formato compacto**. A maioria das adegas pequenas (8-13 garrafas) é termoelétrica (sofre no calor) — a Lyon traz compressor de verdade em só 13 garrafas, então funciona bem mesmo em cidade quente sem ocupar muito espaço. Porta inox com vidro integrado, display digital externo, iluminação LED interna, vedação hermética, gás refrigerante adequado. 85W, 220V, dimensões compactas (43,5 x 52 x 47 cm). Pra quem mora em apartamento pequeno OU região quente (Rio, NE) e não quer termoelétrica que não vai gelar direito no verão, essa é a solução — você tem a robustez do compressor sem precisar de uma adega grande.",
       imageUrl: "https://m.media-amazon.com/images/I/61du28+9gcL._AC_SL1200_.jpg",
       amazonAsin: "B077JCNYXD",
-      mercadoLivreUrl: "https://meli.la/15ewvdh",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BDMbBrHN813prnFRLn9LBJK425kO4s4%2Blc3U8QaOH0UX4MIxDwxODsBsoXqcPl7f%2BOfnecPfjD0lHkO01LWKk6uaF1FlIuOBQ3qZSdw6Dz%2FDPcYy%2Fs7%2FwRHkGurHfHUt91ueoemWirhIjbsPi04ntGEyfs6MdmVYucUEQwwls0g2DZTSsRDScYBNhjXUVrda%2Bar8n%2FM%3D",
       specs: {
         Capacidade: "13 garrafas",
         Sistema: "Compressor",
@@ -237,7 +243,8 @@ export const adegasClimatizadasList: ProductList = {
         "A Philco PAD12E é a entrada acessível com a vantagem do **bivolt** — funciona em 110V e 220V, ótima pra quem aluga ou tem casa antiga (110V apenas). 12 garrafas / 35 litros, refrigeração termoelétrica (silenciosa, sem vibração), temperatura ajustável de 10°C a 18°C via display digital, prateleiras cromadas deslizantes e ajustáveis, porta com vidro duplo, iluminação LED interna, pés niveladores. Apenas 58W de consumo. Por faixa de R$ 900-1.200, é uma das mais baratas da lista. **Lembre da limitação termoelétrica:** não chega aos 8°C ideais pra brancos em verão acima de 30°C — funciona melhor em clima ameno ou ambiente climatizado. Marca Philco com pós-venda nacional.",
       imageUrl: "https://m.media-amazon.com/images/I/51by8iYdfDL._AC_SL1200_.jpg",
       amazonAsin: "B0C6FCNH9S",
-      mercadoLivreUrl: "https://meli.la/1ytbQRo",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BGGUWC1uEAkVppEW%2B1r5Fd%2FfDbTXyU8P%2Fq8IaHcMc8NYbZ7yqLruGEm4YNyLTlsHnYjLYHSyDjSNfFLBD3sWNp9L0oGXf29mH%2BbVEhE8IrzS%2F%2Bw5K8CtUPmCbevRJRGDpJf10pZ8vWa4bpl2%2FXwQj0QBETXCzpipymZXbV2uEDkYhEWusSuw1simOGEsGmKf6zRl32s%3D",
       specs: {
         Capacidade: "12 garrafas",
         Sistema: "Termoelétrica (Peltier)",
@@ -266,7 +273,8 @@ export const adegasClimatizadasList: ProductList = {
         "A Brastemp BZC12BE é a entrada da Brastemp na categoria — 12 garrafas com a qualidade construtiva e pós-venda Whirlpool em rede nacional. Painel **touch sensor** extremamente intuitivo (um toque ajusta temperatura entre 12°C e 18°C ou liga a iluminação), iluminação LED interna, porta com vidro, controle digital de temperatura, dimensões compactas. Acabamento preto (linha All Black). Pra iniciante que quer começar com uma marca premium reconhecida (e a tranquilidade de assistência técnica Brastemp em qualquer cidade) em vez de marca especializada menor, é a escolha. Trade-off: termoelétrica padrão, então mesma limitação de não gelar tanto quanto compressor no verão.",
       imageUrl: "https://m.media-amazon.com/images/I/41pKHut1FyL._AC_SL1000_.jpg",
       amazonAsin: "B079ZCB7MB",
-      mercadoLivreUrl: "https://meli.la/11ZZm79",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BFYMYfj%2BeI3GtLkQIO4VVQZaAgHSN9xRlLDv%2FkcAv4%2FviiPZR8QL3cGCOyl8RfCBZKri2QPxVuAwWd7dos%2B9s%2BE6XylmJ2RKzYJp21EWNZ%2BiL6SgyaK%2F9SoBX4vi4%2FstffSfurEDiVS7HV7RW0nEQs%2Bs5VhyJMDik%2BDv234xZ09nWbgQm9lpbs4nQ6Bjlls2ENonEa4%3D",
       specs: {
         Capacidade: "12 garrafas",
         Sistema: "Termoelétrica",
@@ -295,7 +303,8 @@ export const adegasClimatizadasList: ProductList = {
         "A Electrolux ACB12 entrega 12 garrafas com o acabamento premium em **alumínio escovado** que destaca a linha Electrolux de adegas. Display de temperatura externo (controla sem abrir a porta — evita variação térmica), uma porta com vidro duplo temperado, iluminação LED interna, prateleiras cromadas. Design sóbrio e elegante que se integra bem em sala ou cozinha. Pós-venda Electrolux nacional. Comparada à Brastemp BZC12BE (item #8), a diferença é mais de marca/estética que de spec — ambas são termoelétricas 12 garrafas de entrada. Escolha pela preferência de marca e pelo visual (alumínio escovado da Electrolux vs. all-black da Brastemp).",
       imageUrl: "https://m.media-amazon.com/images/I/518bFu8vGNL._AC_SL1200_.jpg",
       amazonAsin: "B09JV55TDR",
-      mercadoLivreUrl: "https://meli.la/1vg5NTC",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BFQMXALpd9hxnKnudIralw9UsgZRPWJtCgGdgbUmA35zf2BwgrxOY5PW4LcjAx8ox6IHKGNrfg%2BAyx8umUgMBhx6ozHwBE%2Fyk5C8ohQTxcQFTlGdplsI59z1YDSAIEgMW8vJfKmIvp33v5bOTLmJ6xlDu7Abu3vEFAofgGypG7SunTvM0POKkNdPOGDFmopqPVHtF3E%3D",
       specs: {
         Capacidade: "12 garrafas",
         Sistema: "Termoelétrica",
@@ -324,7 +333,8 @@ export const adegasClimatizadasList: ProductList = {
         "A Midea 12 Garrafas Bivolt fecha a lista como a opção mais pragmática de entrada: **bivolt** (110V/220V automático), capacidade de 12 garrafas, sistema termoelétrico silencioso, painel digital, iluminação LED, vidro duplo. Pra quem mora em casa antiga (só 110V), aluga, ou quer levar pra outro apartamento no futuro sem se preocupar com voltagem, a flexibilidade bivolt é o diferencial. Marca Midea com distribuição ampla no Brasil. Pra perfis pragmáticos que querem simplicidade de instalação acima de specs premium, é a escolha que faz sentido.",
       imageUrl: "https://m.media-amazon.com/images/I/61tJA8UpjIL._AC_SL1500_.jpg",
       amazonAsin: "B0F7TFM927",
-      mercadoLivreUrl: "https://meli.la/16MoeMs",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BKMjLdPaz6xpduk%2B0jdi6qupzMNf8G9xBOkEnv7tYqXWSGg4NMyZUU2AELVh2SYd1Su6DYIW2v8sVMlyokEGV6ZWFvhO0DWvrFu9qXLNK5qAxOAMK7mXxMp0Nd9tRbcUi1pKHBsCNzTgIpaSVRD2HltvmEu%2BrTnD5kkUkB%2B0uVm67R0kN5kPjY%2BJAnoVmRzvhALcfGI%3D",
       specs: {
         Capacidade: "12 garrafas",
         Sistema: "Termoelétrica",
