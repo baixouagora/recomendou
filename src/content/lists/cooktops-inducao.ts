@@ -1,7 +1,7 @@
 import type { ProductList } from "@/lib/types";
 
 // Imagens Amazon: hot-link via m.media-amazon.com/images/I/{HASH}
-// Links Mercado Livre: shortlinks afiliados meli.la/XXXX
+// Links Mercado Livre: links de afiliado "social" (mercadolivre.com.br/social/...?ref=...)
 // Links Amazon: tag recomendou01-20 injetada automaticamente via buildAmazonUrl
 
 export const cooktopsInducaoList: ProductList = {
@@ -53,7 +53,8 @@ export const cooktopsInducaoList: ProductList = {
         "A Brastemp BDJ77BE é referência no segmento premium brasileiro. 4 bocas com vitrocerâmica preta, sistema **Flexizone** que junta automaticamente as duas bocas do lado esquerdo pra acomodar panelas grandes (frigideira retangular, peixeira, panelas de fervura grande) — diferencial real pra quem cozinha em quantidade. Touch capacitivo nos comandos, 18 níveis de potência por boca, timer individual, indicador de calor residual, PowerBoost (a boca atinge potência máxima por alguns minutos pra ferver água rapidamente). Pós-venda em rede nacional via Brastemp (mais ampla que concorrentes). 220V. Para quem reforma cozinha agora e quer o melhor com tranquilidade de marca, é o que recomendamos primeiro.",
       imageUrl: "https://m.media-amazon.com/images/I/41Yla4EUWdL._AC_SL1000_.jpg",
       amazonAsin: "B0CLM8LS3W",
-      mercadoLivreUrl: "https://meli.la/1sZf3V5",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BEeoCDhmU7kArqwTYtNblPYitNfUAG9BAVmgiv3u5dD%2FUvvEdmxEJ%2BQPodKFMbXPR2Tm74DCNLlUWROc71sim9p09Ch8jLaRVfXRHmL0EGh5Z0KwU5VzuCP3Ld5QjzgWfUuuyzRJVsqUEtXjnbcWgZIWeJIISnwOD0YxdUzJ0e2JclprZQQMYLWr3djJIUEkiIIG6Xk%3D",
       pros: [
         "Flexizone — junta 2 bocas pra panelas grandes",
         "Touch capacitivo + 18 níveis por boca",
@@ -73,7 +74,8 @@ export const cooktopsInducaoList: ProductList = {
         "A Electrolux IE80P é o cooktop premium mais largo da lista (78cm — acomoda 4 panelas grandes sem disputa de espaço) com sistema **Unicook** que detecta automaticamente o tamanho da panela e ajusta o campo magnético — você usa qualquer parte da superfície, e a tecnologia foca o calor onde tem panela. 14 níveis de potência (mais granular que os 9 de muitos concorrentes), **PowerBoost** em todas as bocas, função pausa (interrompe cozimento sem perder ajustes), trava infantil, timer e indicador de calor residual. Vitrocerâmica preta. 220V. Para quem cozinha pratos complexos com várias panelas simultâneas, a área extra e os 14 níveis fazem diferença real.",
       imageUrl: "https://m.media-amazon.com/images/P/B082FQCN5W._SX466_.jpg",
       amazonAsin: "B082FQCN5W",
-      mercadoLivreUrl: "https://meli.la/1BaqT1N",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BKeypruy8ExP5voo7VT1v3CrLSVG4uGdsi5rglHhZQIpSe1OG1EGo9yryUj0dJnfa9PvoSJhFUfZu8cdgrgWrd2QCuAeVxzQLVGRaQL9P%2FdnRfD4COnBZZ6NcaLd0DxFLqVH8tnbZSm%2BCVoMwkXQlZ2AW6HyfwPDAbgc8325djuDPEJ28J3%2F7Eg7ydzYprY%2FzmrSqrE%3D",
       pros: [
         "78cm de largura (acomoda 4 panelas grandes)",
         "Unicook detecta tamanho/posição da panela",
@@ -93,7 +95,8 @@ export const cooktopsInducaoList: ProductList = {
         "A Tramontina Square Basic 4EI 60 é a opção que mais entrega por preço médio. 4 bocas em 60cm, 2 menores de 1.4kW (Ø180mm) e 2 maiores de 1.8kW (Ø200mm). Touch capacitivo, 9 níveis de potência por boca, indicador de calor residual, trava infantil. Sem flexizone, sem PowerBoost individual, sem unicook — mas pra cozinhar bem todo dia, esses são extras, não essenciais. Vitrocerâmica preta. Marca brasileira veterana (Tramontina) com pós-venda local sólido. 220V. Pra quem reforma a cozinha e quer cooktop por indução de qualidade sem ir nos R$ 4k+ dos premium, é a recomendação mais inteligente — você paga metade do preço, perde features secundários, mantém qualidade essencial.",
       imageUrl: "https://m.media-amazon.com/images/I/41tvhlHn40L._AC_SL1000_.jpg",
       amazonAsin: "B0BH87G279",
-      mercadoLivreUrl: "https://meli.la/2srwNdd",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BA3i78dDSbMW3dslebC0%2B8x8VdcMRFD7ypNTkbtm5WsEca%2BFun2LSzYR9J3ir%2F3%2BsF77kdcv4s75B9dcrUnrNXp0NWKrf5LSWIulEf66V1rcBS%2FjcknOoVXsMcfiqar4BNQxNiQJO02QJoD4TAGIdfh0cd8MkuRzcD5WTDBy5AiMT7zoA24gvxOuPt%2BdtHg4CvOo8qs%3D",
       pros: [
         "Custo-benefício imbatível (R$ 2.5-3.5k pra premium real)",
         "Marca brasileira com pós-venda local",
@@ -113,7 +116,8 @@ export const cooktopsInducaoList: ProductList = {
         "A Fischer foca em durabilidade mecânica e simplicidade de uso. 4 bocas com vitrocerâmica reforçada (a marca alega a mais resistente do segmento entre nacionais), comandos touch, níveis de potência ajustáveis, timer e trava de segurança, sensor CookSense que desliga automaticamente quando não há panela. Não tem os recursos premium da Brastemp ou Electrolux (sem Flexizone, sem Unicook), mas ganha em construção robusta e simplicidade de operação — interface clara, menos botões pra confundir. Marca brasileira focada no segmento profissional/residencial pesado. 220V, 7.000W de potência total. Vale pra usuário que prioriza durabilidade física, ou pra cozinha de pousada/casa de família grande onde o cooktop trabalha pesado.",
       imageUrl: "https://m.media-amazon.com/images/P/B0DJV2FB64._SX466_.jpg",
       amazonAsin: "B0DJV2FB64",
-      mercadoLivreUrl: "https://meli.la/2q9rT53",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BBN3ZKD7OZcKB0leht0Qeek5o7hXTK17NCZPx7BWTbC4ErqlKCUCVmXDX1VJVmjwKAC3O1glrT5lH11T%2FboFPiSZ48TTnzYCHnIZO1uWVyYuNbq1kLZbTjYuzLYX9CI5gsF%2Bhs8vy22FqxUmlG1sSj4%2F4lQkBZhqtavBD8akMyZ%2Bb9JGFfXA2HQGFJL5IP90LNc2zw%3D%3D",
       pros: [
         "Vitrocerâmica reforçada (durabilidade superior)",
         "Marca brasileira veterana (Fischer)",
@@ -133,7 +137,8 @@ export const cooktopsInducaoList: ProductList = {
         "A Brastemp BDJ60BE é a versão \"funções especiais\" da Brastemp — sem o Flexizone do BDJ77BE, mas com PowerBoost em **todas as 4 bocas** e timer individual. 60cm de largura (vs. 78cm do BDJ77BE — mais compacto, encaixa em gabinetes padrão). 9 níveis de potência, touch capacitivo, trava infantil, indicador de calor residual. Vitrocerâmica preta. Para quem cozinha pratos simultâneos onde precisa ferver água rápido em várias bocas (sopa + arroz + chá ao mesmo tempo), o PowerBoost em todas é um diferencial. Faltam só as features do BDJ77BE (Flexizone), mas custa cerca de R$ 800-1.500 a menos. Boa pedida pra cozinha apertada que quer Brastemp premium em formato menor.",
       imageUrl: "https://m.media-amazon.com/images/I/418gPvyBMiL._AC_SL1000_.jpg",
       amazonAsin: "B0CLM6TR3V",
-      mercadoLivreUrl: "https://meli.la/1k2uwmi",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BBz5ZQiaRxemrvP13PrjSwxdo%2FJJBYvk3RxlD5EX2hjxV%2FrBP3WnH4c7vVJFR65UgSP4daAXtJKAzmFeFVTGmLoG3e7U515cUA5X0qaJJ8hiqnSegxz6DMR9%2Br%2BYx2TB08vAobZVBiDfflGPHk8aIGsGCz0X8wuC%2B%2BpYa2XurOCSVkLTPOAzqQXkzSF22gZkX%2FswFkQ%2FN3rlSbvuqA%3D%3D",
       pros: [
         "PowerBoost em TODAS as 4 bocas (raro)",
         "Timer individual por boca",
@@ -153,7 +158,8 @@ export const cooktopsInducaoList: ProductList = {
         "A Electrolux IE60P é a versão 60cm da família Unicook (IE80P sendo a 78cm). Mantém a tecnologia **Unicook** (junta 2 zonas de indução pra grelhar peixe inteiro ou panela longa), 14 níveis de potência, PowerBoost, timer, trava de segurança, e painel touch — mas em formato compatível com gabinete padrão de 60cm. Potência total 7.350W, 220V. Vitrocerâmica preta com superfície plana ultra-resistente. Para quem quer a tecnologia Electrolux Unicook mas tem cozinha de apartamento padrão (sem espaço pra 78cm), é a escolha mais inteligente. Performance equivalente ao IE80P, só área de superfície menor.",
       imageUrl: "https://m.media-amazon.com/images/I/41wUwSMsKwL._AC_SL1200_.jpg",
       amazonAsin: "B082FQD17H",
-      mercadoLivreUrl: "https://meli.la/1SJbtZM",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BHsycCJL9AbKDNWtc%2BREQGt00RdZBvMhz3VyK0fw2wPuPgVKxy%2B7Ljvv71OeGyDIZBPk9ugv0jYJ6Ro0%2B4%2BNVFhazOhfDdDV8SvnzIbOxs8oQ64MJ9w0MvQ%2BY8GgXXcxg%2Fq11KN0iGl8LnXaIGHpA1xi3nH1%2FAKkNOzpxPqf7I%2FKnHGUS3wuQjwP9YVGrAeIA6LEKlc%3D",
       pros: [
         "Tecnologia Unicook + 14 níveis (mesmo do IE80P)",
         "60cm — cabe em gabinete padrão",
@@ -173,7 +179,8 @@ export const cooktopsInducaoList: ProductList = {
         "A Midea entrou forte no mercado brasileiro nos últimos anos como alternativa internacional aos nacionais. O **Built In Even Pro** é o cooktop por indução 4 bocas premium da marca: potência total de 8.100W (uma das mais altas da lista — fervura rápida real), função **Turbo** que aumenta a potência máxima por períodos curtos pra aquecer água em quantidade até 2.6x mais rápido, 9 níveis de potência, timer, desligamento automático ao retirar a panela, trava de segurança. Vitrocerâmica preta. 220V. Como é da Midea (uma das maiores fabricantes mundiais de eletrodomésticos), tem preço competitivo vs. marcas premium brasileiras com tecnologia equivalente. Boa pedida pra quem valoriza spec absoluta (potência alta) sobre marca local.",
       imageUrl: "https://m.media-amazon.com/images/I/41e4mJKfkwL._AC_SL1000_.jpg",
       amazonAsin: "B0DWT88S1T",
-      mercadoLivreUrl: "https://meli.la/1CP3Mwx",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BOGrN0tI7bC4U8HQa%2BSTK7PL0GAiADQBB7CdIOMOcBWLZnaiE%2FScKBCL9Bz03DX%2FKdHMFw0DAAt1QkMpO1qm4M6%2FsAP48VTiRcvV%2BjqJWZdLgLbSfoA5iMX9g3iSprZ2qq%2BgwcE8Z8fe0aGpIy4RSYCx2vr%2FOPeDTttYu5kYuNON5XF8wsdZOI%2FFsKf4G4Hieh22eJI%3D",
       pros: [
         "8.100W de potência total (uma das maiores)",
         "Função Turbo até 2.6x fervura rápida",
@@ -193,7 +200,8 @@ export const cooktopsInducaoList: ProductList = {
         "A Mueller MCI024BG1 Turbo Total é a versão mais completa da linha entry da Mueller. 4 bocas com **Turbo Total em todas elas** (diferencial real — modelos entry geralmente têm Turbo só em 1-2 bocas), vitrocerâmica preta, touch, níveis de potência, timer, função que mantém panelas aquecidas (mantém temperatura sem desperdiçar energia). Mais simples que os premium (sem Flexizone, sem Unicook), mas entrega o essencial bem feito. Marca brasileira nicho com pós-venda local. 220V. Pra quem quer entrar no universo de indução com marca brasileira sem investir nos R$ 3k+ dos mid-premium, é a porta de entrada mais honesta — e a função Turbo Total dá um diferencial real sobre Mueller mais baratos.",
       imageUrl: "https://m.media-amazon.com/images/I/41YLz9kp5zS._AC_SL1000_.jpg",
       amazonAsin: "B001GSL1EE",
-      mercadoLivreUrl: "https://meli.la/2YzJ5Fa",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BFAj70aIVSgSFwwAqS941ofVk6qFFJd9xP4jBshm1VydkAdbQLut5jGolU0UWLLduAGnb8nhUArajSM7uVnHcbWzL42T3ztV%2BopiGqzBP7mrTadYBi6KA81APgCouq6v4%2BPUqjXf4y9MtnmEK36CfIj%2BAhywVz%2FHvaXnuw8GzVutJcPuOnGkgwFQetrEg9D79t%2F%2Blg%3D%3D",
       pros: [
         "Turbo Total em TODAS as 4 bocas",
         "Marca brasileira (Mueller) com pós-venda local",
@@ -213,7 +221,8 @@ export const cooktopsInducaoList: ProductList = {
         "O Oster OTOP202 Touch Screen 2 em 1 é o **único portátil 110V da lista** — funciona em qualquer tomada doméstica padrão sem precisar de instalação 220V. Diferencial enorme pra quem mora em casa antiga, aluga, ou simplesmente não tem 220V disponível. 2 bocas com controles touch slide independentes, função Booster pra aquecimento rápido, timer até 99 minutos, trava de segurança, superfície vitrocerâmica preta. O \"2 em 1\" significa que pode ser usado como embutido (instalado) ou portátil (em cima da bancada, fim de semana de chácara) — flexibilidade real. Faixa de R$ 500-900. Para casa de aluguel, chácara/pousada, cozinha de apartamento antigo sem 220V, ou complemento ao fogão a gás existente, é a escolha mais flexível da lista.",
       imageUrl: "https://m.media-amazon.com/images/I/41FavKtK-NL._AC_SL1000_.jpg",
       amazonAsin: "B09LHWQ68V",
-      mercadoLivreUrl: "https://meli.la/2rqAXJx",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BB3D1mdJLPps8spOHS%2BW6stPnI%2B0LYXQ11NbFtWCctbQy1JikwguqFjz7mMNTL7Jz1WdxxFQVqKYkCA6WbkioL0VfxOH8Lehbn8vNqNYZIUVVC7Rm%2F9D6DUO0Cy3VY6V3uSNt34ucPrdtX%2FKX3VhQLxpufLivgDwe7TGUrk1MNSpmdbZhU74WXFZ6p9KeXgdNwW2PBU%3D",
       pros: [
         "127V (110V) — único da lista que não exige 220V",
         "Modo \"2 em 1\" — usa embutido OU portátil",
@@ -233,7 +242,8 @@ export const cooktopsInducaoList: ProductList = {
         "A Tramontina Slim Touch 9471413 (também conhecido como modelo EI 30) é o portátil de 1 boca mais vendido do mercado brasileiro. Vitrocerâmica preta, Ø22cm de área de aquecimento (acomoda panela grande), touch capacitivo, 9 níveis de potência, timer programável, trava de segurança automática, indicador de calor residual. 220V, ~2000W de potência. Marca Tramontina com pós-venda local sólido. Vale pra: (a) testar indução antes de comprar 4 bocas, (b) complementar o fogão existente quando precisa de uma boca extra, (c) cozinha de chácara/pousada/aluguel que não pode reformar, (d) cozinha já equipada mas que quer praticidade pra chás/cafés rápidos. Por R$ 500-700, é o jeito mais barato de ter indução em casa com qualidade Tramontina.",
       imageUrl: "https://m.media-amazon.com/images/I/41sYkPMEA1L._AC_SL1000_.jpg",
       amazonAsin: "B07Q1WWWBR",
-      mercadoLivreUrl: "https://meli.la/2DEbcFi",
+      mercadoLivreUrl:
+        "https://www.mercadolivre.com.br/social/recomendou?matt_word=recomendou&matt_tool=73519280&forceInApp=true&ref=BEr9N54ohn%2BPDxIBcFX3dH7qlM%2FcHM53Xzx9oj7UVAydHl6jrvWZbLLwfIrVGo%2FQKGlGAklQIAnzdhX4QKXXEjBLrCXOF63bZVydJwySJj%2FHUv8NXWzT47W3HyDaV5MOXIl9rsb%2BWLQxY364qEgzX90PHmMked8%2Fgy4gZOAUaGQa6m5b2IP8bFkMgyj5oQrdhmN6wfQ%3D",
       pros: [
         "Marca Tramontina com pós-venda local",
         "Portátil — usa quando precisa, guarda depois",
