@@ -25,6 +25,29 @@ export default function SobrePage() {
           </p>
         </header>
 
+        <section className="mt-14 rounded-2xl border border-border bg-surface p-8">
+          <h2 className="text-2xl font-semibold tracking-tight text-foreground">
+            Quem somos
+          </h2>
+          <p className="mt-4 text-base leading-8 text-foreground/90">
+            O recomendou.com.br é um site editorial independente operado pela{" "}
+            <strong>Woork</strong> (W P Garcia LTDA, CNPJ 60.187.344/0001-83),
+            empresa brasileira que mantém sites de recomendação de produtos em
+            categorias específicas. <strong>Não somos uma loja</strong> — não
+            vendemos produtos, não processamos pagamentos e não temos vínculo
+            societário com Amazon, Mercado Livre ou fabricantes. Somos um
+            veículo de conteúdo que vive de comissão de afiliado, com
+            independência editorial declarada. Contato:{" "}
+            <a
+              href="mailto:contato@woork.com.br"
+              className="text-brand hover:underline"
+            >
+              contato@woork.com.br
+            </a>
+            .
+          </p>
+        </section>
+
         <section className="mt-14 space-y-6 text-base leading-8 text-foreground/90">
           <h2 className="text-2xl font-semibold tracking-tight text-foreground">
             Nossa missão
@@ -125,10 +148,10 @@ export default function SobrePage() {
             próxima lista? Quer corrigir spec de produto que você possui?
             Escreve pra{" "}
             <a
-              href="mailto:contato@recomendou.com.br"
+              href="mailto:contato@woork.com.br"
               className="text-brand underline-offset-4 hover:underline"
             >
-              contato@recomendou.com.br
+              contato@woork.com.br
             </a>
             . Levamos feedback de leitor a sério — corrigir erro mantém a
             lista útil pra próxima pessoa.

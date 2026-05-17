@@ -3,6 +3,7 @@ import { Geist } from "next/font/google";
 import Script from "next/script";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { AffiliateDisclosureBanner } from "@/components/affiliate-disclosure-banner";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -34,6 +35,7 @@ export default function RootLayout({
     <html lang="pt-BR" className={`${geistSans.variable} antialiased`}>
       <body className="flex min-h-screen flex-col bg-background text-foreground">
         <SiteHeader />
+        <AffiliateDisclosureBanner />
         <main className="flex-1">{children}</main>
         <SiteFooter />
       </body>
